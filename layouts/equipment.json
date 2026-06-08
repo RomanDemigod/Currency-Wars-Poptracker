@@ -1,0 +1,91 @@
+{
+    "equipment_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "rows": [
+								[
+									"AetherDrill",
+									"BatchProducedArmor",
+									"FlowerOfLife",
+									"FoldingKnife",
+									"LuckyStar",
+									"PeacePistol",
+									"PhotonCell",
+									"RollerSkates"
+								],
+								[
+									"SmeltingFurnace",
+									"DisassemblyWrench",
+									"SpecialPrivilegeCard",
+									"GoodFortuneToken",
+									"StaffProjector",
+									"PerfectProjector",
+									"RedGem",
+									"BlueGem",
+									"WealthGem",
+									"TrashBag",
+									"GoldenTrashBag"
+								],
+								[
+									"AdaptiveExoskeleton",
+									"AnalgesiaChip",
+									"Anti-GravBoots",
+									"BastionProjector",
+									"Bloodthirsty",
+									"BlossomToTheStride",
+									"CaloricOverload",
+									"ChargingSail",
+									"ChasingStars",
+									"ChassisOfRetribution"
+								],
+								[
+									"CodexOfCombat",
+									"ConfidenceInjector",
+									"DecapitationOperation",
+									"ElectromagneticCatapult",
+									"FirestormSurge",
+									"FistOfFury",
+									"FlashGrenade",
+									"High-frequencyChainsaw",
+									"LightSpeedPropeller",
+									"LightningBoots"
+								],
+								[
+									"MeteorWings",
+									"MolecularSolvent",
+									"MomentumEdge",
+									"OrbitalRailgun",
+									"PerpetualEngine",
+									"PhotonShield",
+									"PlanetaryDrill",
+									"PunGenerator",
+									"RingOfLife",
+									"StarcleaverBlade"
+								],
+								[
+									"StarfallSniper",
+									"SturdyPlate",
+									"VictoryBanner",
+									"WeaponMaster",
+									"WhateverDice",
+									"WormholeDrill",
+									"Emblems"
+								]
+							]
+						}
+					]
+				}
+			]
+	}
+}

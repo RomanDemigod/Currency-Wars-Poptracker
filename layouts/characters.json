@@ -1,0 +1,128 @@
+{
+    "character_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "Welt",
+								"Archer",
+								"Topaz",
+								"JingYuan",
+								"Yunli",
+								"BlackSwan",
+								"Firefly",
+								"Cyrene",
+								"Bronya"
+                            ]
+                        ]
+                    },
+					{
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "SilverWolf",
+                                "Gepard",							
+                                "Luocha",
+                                "FuXuan",
+                                "Yanqing",
+                                "Robin",
+                                "Boothill",
+                                "TheHerta",
+                                "Castorice",
+                                "Hysilens",
+                                "Evernight",
+                                "Sparxie",
+                                "Trailblazer"
+                            ]
+                        ]
+                    },
+					{
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "Himeko",
+                                "Saber",
+                                "Seele",
+                                "Natasha",
+                                "Jingliu",
+                                "Fugue",
+                                "DrRatio",
+                                "Acheron",
+                                "Sunday",
+                                "Anaxa",
+                                "Phainon",
+                                "Cerydra",
+                                "SilverWolf999"
+                            ]
+                        ]
+                    },
+					{
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "Kafka",
+                                "Pela",
+                                "DanHengIL",
+                                "Argenti",
+                                "RuanMei",
+                                "Aventurine",
+                                "Sparkle",
+                                "Lingsha",
+                                "Tribbie",
+                                "Mydei",
+                                "Hyacine",
+                                "DanHengPT",
+                                "Ashveil",
+                                "Evanescia"
+                            ]
+                        ]
+                    },
+					{
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "March7th",
+                                "Asta",
+                                "Herta",
+                                "Sampo",
+                                "Feixiao",
+                                "Qingque",
+                                "Tingyun",
+                                "Blade",
+                                "Huohuo",
+                                "Jiaoqiu",
+                                "Moze",
+                                "Gallagher",
+                                "Jade",
+                                "Rappa",
+                                "TheDahlia",
+                                "Aglaea",
+                                "Cipher",
+                                "YaoGuang"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

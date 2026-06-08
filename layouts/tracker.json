@@ -1,0 +1,149 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Characters",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "character_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "equipment_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Access Cards",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "access_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+                "title": "a0",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "a0"
+                    ]
+                }
+            },
+            {
+                "title": "a1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "a1"
+                    ]
+                }
+            },
+            {
+                "title": "a2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "a2"
+                    ]
+                }
+            },
+            {
+                "title": "a3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "a3"
+                    ]
+                }
+            },
+            {
+                "title": "a4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "a4"
+                    ]
+                }
+            },
+            {
+                "title": "a5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "a5"
+                    ]
+                }
+            },
+            {
+                "title": "a6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "a6"
+                    ]
+                }
+            },
+            {
+                "title": "a7",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "a7"
+                    ]
+                }
+            },
+            {
+                "title": "a8",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "a8"
+                    ]
+                }
+            },
+			
+                "title": "bosses",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "bosses"
+                    ]
+                }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

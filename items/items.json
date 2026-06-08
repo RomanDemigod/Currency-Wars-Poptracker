@@ -1,0 +1,799 @@
+[
+  
+  {
+    "name": "Welt",
+    "type": "toggle",
+    "img": "images/items/Welt.png",
+    "codes": "Welt"
+  },
+  {
+    "name": "Archer",
+    "type": "toggle",
+    "img": "images/items/Archer.png",
+    "codes": "Archer"
+  },
+  {
+    "name": "Topaz & Numby",
+    "type": "toggle",
+    "img": "images/items/Topaz & Numby.png",
+    "codes": "Topaz"
+  },
+  {
+    "name": "Jing Yuan",
+    "type": "toggle",
+    "img": "images/items/Jing Yuan.png",
+    "codes": "JingYuan"
+  },
+  {
+    "name": "Yunli",
+    "type": "toggle",
+    "img": "images/items/Yunli.png",
+    "codes": "Yunli"
+  },
+  {
+    "name": "Black Swan",
+    "type": "toggle",
+    "img": "images/items/Black Swan.png",
+    "codes": "BlackSwan"
+  },
+  {
+    "name": "Firefly",
+    "type": "toggle",
+    "img": "images/items/Firefly.png",
+    "codes": "Firefly"
+  },
+  {
+    "name": "Cyrene",
+    "type": "toggle",
+    "img": "images/items/Cyrene.png",
+    "codes": "Cyrene"
+  },
+  {
+    "name": "Bronya",
+    "type": "toggle",
+    "img": "images/items/Bronya.png",
+    "codes": "Bronya"
+  },
+    
+  {
+    "name": "Silver Wolf",
+    "type": "toggle",
+    "img": "images/items/Silver Wolf.png",
+    "codes": "SilverWolf"
+  },
+  {
+    "name": "Gepard",
+    "type": "toggle",
+    "img": "images/items/Gepard.png",
+    "codes": "Gepard"
+  },
+  {
+    "name": "Luocha",
+    "type": "toggle",
+    "img": "images/items/Luocha.png",
+    "codes": "Luocha"
+  },
+  {
+    "name": "Fu Xuan",
+    "type": "toggle",
+    "img": "images/items/Fu Xuan.png",
+    "codes": "FuXuan"
+  },
+  {
+    "name": "Yanqing",
+    "type": "toggle",
+    "img": "images/items/Yanqing.png",
+    "codes": "Yanqing"
+  },
+  {
+    "name": "Robin",
+    "type": "toggle",
+    "img": "images/items/Robin.png",
+    "codes": "Robin"
+  },
+  {
+    "name": "Boothill",
+    "type": "toggle",
+    "img": "images/items/Boothill.png",
+    "codes": "Boothill"
+  },
+  {
+    "name": "The Herta",
+    "type": "toggle",
+    "img": "images/items/The Herta.png",
+    "codes": "TheHerta"
+  },
+  {
+    "name": "Castorice",
+    "type": "toggle",
+    "img": "images/items/Castorice.png",
+    "codes": "Castorice"
+  },
+  {
+    "name": "Hysilens",
+    "type": "toggle",
+    "img": "images/items/Hysilens.png",
+    "codes": "Hysilens"
+  },
+  {
+    "name": "Evernight",
+    "type": "toggle",
+    "img": "images/items/Evernight.png",
+    "codes": "Evernight"
+  },
+  {
+    "name": "Sparxie",
+    "type": "toggle",
+    "img": "images/items/Sparxie.png",
+    "codes": "Sparxie"
+  },
+  {
+    "name": "Trailblazer",
+    "type": "toggle",
+    "img": "images/items/Trailblazer.png",
+    "codes": "Trailblazer"
+  },  
+  
+  {
+    "name": "Himeko",
+    "type": "toggle",
+    "img": "images/items/Himeko.png",
+    "codes": "Himeko"
+  },
+  {
+    "name": "Saber",
+    "type": "toggle",
+    "img": "images/items/Saber.png",
+    "codes": "Saber"
+  },
+  {
+    "name": "Seele",
+    "type": "toggle",
+    "img": "images/items/Seele.png",
+    "codes": "Seele"
+  },
+  {
+    "name": "Natasha",
+    "type": "toggle",
+    "img": "images/items/Natasha.png",
+    "codes": "Natasha"
+  },
+  {
+    "name": "Jingliu",
+    "type": "toggle",
+    "img": "images/items/Jingliu.png",
+    "codes": "Jingliu"
+  },
+  {
+    "name": "Fugue",
+    "type": "toggle",
+    "img": "images/items/Fugue.png",
+    "codes": "Fugue"
+  },
+  {
+    "name": "Dr. Ratio",
+    "type": "toggle",
+    "img": "images/items/Dr. Ratio.png",
+    "codes": "DrRatio"
+  },
+  {
+    "name": "Acheron",
+    "type": "toggle",
+    "img": "images/items/Acheron.png",
+    "codes": "Acheron"
+  },
+  {
+    "name": "Sunday",
+    "type": "toggle",
+    "img": "images/items/Sunday.png",
+    "codes": "Sunday"
+  },
+  {
+    "name": "Anaxa",
+    "type": "toggle",
+    "img": "images/items/Anaxa.png",
+    "codes": "Anaxa"
+  },
+  {
+    "name": "Phainon",
+    "type": "toggle",
+    "img": "images/items/Phainon.png",
+    "codes": "Phainon"
+  },
+  {
+    "name": "Cerydra",
+    "type": "toggle",
+    "img": "images/items/Cerydra.png",
+    "codes": "Cerydra"
+  },
+  {
+    "name": "Silver Wolf LV.999",
+    "type": "toggle",
+    "img": "images/items/Silver Wolf LV.999.png",
+    "codes": "SilverWolf999"
+  },
+  
+  {
+    "name": "Kafka",
+    "type": "toggle",
+    "img": "images/items/Kafka.png",
+    "codes": "Kafka"
+  },
+  {
+    "name": "Pela",
+    "type": "toggle",
+    "img": "images/items/Pela.png",
+    "codes": "Pela"
+  },
+  {
+    "name": "Dan Heng IL",
+    "type": "toggle",
+    "img": "images/items/Dan Heng IL.png",
+    "codes": "DanHengIL"
+  },
+  {
+    "name": "Argenti",
+    "type": "toggle",
+    "img": "images/items/Argenti.png",
+    "codes": "Argenti"
+  },
+  {
+    "name": "Ruan Mei",
+    "type": "toggle",
+    "img": "images/items/Ruan Mei.png",
+    "codes": "RuanMei"
+  },
+  {
+    "name": "Aventurine",
+    "type": "toggle",
+    "img": "images/items/Aventurine.png",
+    "codes": "Aventurine"
+  },
+  {
+    "name": "Sparkle",
+    "type": "toggle",
+    "img": "images/items/Sparkle.png",
+    "codes": "Sparkle"
+  },
+  {
+    "name": "Lingsha",
+    "type": "toggle",
+    "img": "images/items/Lingsha.png",
+    "codes": "Lingsha"
+  },
+  {
+    "name": "Tribbie",
+    "type": "toggle",
+    "img": "images/items/Tribbie.png",
+    "codes": "Tribbie"
+  },
+  {
+    "name": "Mydei",
+    "type": "toggle",
+    "img": "images/items/Mydei.png",
+    "codes": "Mydei"
+  },
+  {
+    "name": "Hyacine",
+    "type": "toggle",
+    "img": "images/items/Hyacine.png",
+    "codes": "Hyacine"
+  },
+  {
+    "name": "Dan Heng PT",
+    "type": "toggle",
+    "img": "images/items/Dan Heng PT.png",
+    "codes": "DanHengPT"
+  },
+  {
+    "name": "Ashveil",
+    "type": "toggle",
+    "img": "images/items/Ashveil.png",
+    "codes": "Ashveil"
+  },
+  {
+    "name": "Evanescia",
+    "type": "toggle",
+    "img": "images/items/Evanescia.png",
+    "codes": "Evanescia"
+  },
+  
+  {
+    "name": "March 7th",
+    "type": "toggle",
+    "img": "images/items/March 7th.png",
+    "codes": "March7th"
+  },
+  {
+    "name": "Asta",
+    "type": "toggle",
+    "img": "images/items/Asta.png",
+    "codes": "Asta"
+  },
+  {
+    "name": "Herta",
+    "type": "toggle",
+    "img": "images/items/Herta.png",
+    "codes": "Herta"
+  },
+  {
+    "name": "Sampo",
+    "type": "toggle",
+    "img": "images/items/Sampo.png",
+    "codes": "Sampo"
+  },
+  {
+    "name": "Feixiao",
+    "type": "toggle",
+    "img": "images/items/Feixiao.png",
+    "codes": "Feixiao"
+  },
+  {
+    "name": "Qingque",
+    "type": "toggle",
+    "img": "images/items/Qingque.png",
+    "codes": "Qingque"
+  },
+  {
+    "name": "Tingyun",
+    "type": "toggle",
+    "img": "images/items/Tingyun.png",
+    "codes": "Tingyun"
+  },
+  {
+    "name": "Blade",
+    "type": "toggle",
+    "img": "images/items/Blade.png",
+    "codes": "Blade"
+  },
+  {
+    "name": "Huohuo",
+    "type": "toggle",
+    "img": "images/items/Huohuo.png",
+    "codes": "Huohuo"
+  },
+  {
+    "name": "Jiaoqiu",
+    "type": "toggle",
+    "img": "images/items/Jiaoqiu.png",
+    "codes": "Jiaoqiu"
+  },
+  {
+    "name": "Moze",
+    "type": "toggle",
+    "img": "images/items/Moze.png",
+    "codes": "Moze"
+  },
+  {
+    "name": "Gallagher",
+    "type": "toggle",
+    "img": "images/items/Gallagher.png",
+    "codes": "Gallagher"
+  },
+  {
+    "name": "Jade",
+    "type": "toggle",
+    "img": "images/items/Jade.png",
+    "codes": "Jade"
+  },
+  {
+    "name": "Rappa",
+    "type": "toggle",
+    "img": "images/items/Rappa.png",
+    "codes": "Rappa"
+  },
+  {
+    "name": "The Dahlia",
+    "type": "toggle",
+    "img": "images/items/The Dahlia.png",
+    "codes": "TheDahlia"
+  },
+  {
+    "name": "Aglaea",
+    "type": "toggle",
+    "img": "images/items/Aglaea.png",
+    "codes": "Aglaea"
+  },
+  {
+    "name": "Cipher",
+    "type": "toggle",
+    "img": "images/items/Cipher.png",
+    "codes": "Cipher"
+  },
+  {
+    "name": "Yao Guang",
+    "type": "toggle",
+    "img": "images/items/Yao Guang.png",
+    "codes": "YaoGuang"
+  },
+  
+  {
+    "name": "A1 Access",
+    "type": "toggle",
+    "img": "images/items/A1 Access.png",
+    "codes": "A1_Access"
+  },
+  {
+    "name": "A2 Access",
+    "type": "toggle",
+    "img": "images/items/A2 Access.png",
+    "codes": "A2_Access"
+  },
+  {
+    "name": "A3 Access",
+    "type": "toggle",
+    "img": "images/items/A3 Access.png",
+    "codes": "A3_Access"
+  },
+  {
+    "name": "A4 Access",
+    "type": "toggle",
+    "img": "images/items/A4 Access.png",
+    "codes": "A4_Access"
+  },
+  {
+    "name": "A5 Access",
+    "type": "toggle",
+    "img": "images/items/A5 Access.png",
+    "codes": "A5_Access"
+  },
+  {
+    "name": "A6 Access",
+    "type": "toggle",
+    "img": "images/items/A6 Access.png",
+    "codes": "A6_Access"
+  },
+  {
+    "name": "A7 Access",
+    "type": "toggle",
+    "img": "images/items/A7 Access.png",
+    "codes": "A7_Access"
+  },
+  {
+    "name": "A8 Access",
+    "type": "toggle",
+    "img": "images/items/A8 Access.png",
+    "codes": "A8_Access"
+  },
+  
+  
+  {
+    "name": "Aether Drill",
+    "type": "toggle",
+    "img": "images/items/Aether Drill.png",
+    "codes": "AetherDrill"
+  },
+  {
+    "name": "Batch Produced Armor",
+    "type": "toggle",
+    "img": "images/items/Batch Produced Armor.png",
+    "codes": "BatchProducedArmor"
+  },
+  {
+    "name": "Flower of Life",
+    "type": "toggle",
+    "img": "images/items/Flower of Life.png",
+    "codes": "FlowerOfLife"
+  },
+  {
+    "name": "Folding Knife",
+    "type": "toggle",
+    "img": "images/items/Folding Knife.png",
+    "codes": "FoldingKnife"
+  },
+  {
+    "name": "Lucky Star",
+    "type": "toggle",
+    "img": "images/items/Lucky Star.png",
+    "codes": "LuckyStar"
+  },
+  {
+    "name": "Peace Pistol",
+    "type": "toggle",
+    "img": "images/items/Peace Pistol.png",
+    "codes": "PeacePistol"
+  },
+  {
+    "name": "Photon Cell",
+    "type": "toggle",
+    "img": "images/items/Photon Cell.png",
+    "codes": "PhotonCell"
+  },
+  {
+    "name": "Roller Skates",
+    "type": "toggle",
+    "img": "images/items/Roller Skates.png",
+    "codes": "RollerSkates"
+  },
+  
+  {
+    "name": "Golden Trash Bag",
+    "type": "toggle",
+    "img": "images/items/Golden Trash Bag.png",
+    "codes": "GoldenTrashBag"
+  },
+  {
+    "name": "Trash Bag",
+    "type": "toggle",
+    "img": "images/items/Trash Bag.png",
+    "codes": "TrashBag"
+  },
+  {
+    "name": "Red Gem",
+    "type": "toggle",
+    "img": "images/items/Red Gem.png",
+    "codes": "RedGem"
+  },
+  {
+    "name": "Blue Gem",
+    "type": "toggle",
+    "img": "images/items/Blue Gem.png",
+    "codes": "BlueGem"
+  },
+  {
+    "name": "Wealth Gem",
+    "type": "toggle",
+    "img": "images/items/Wealth Gem.png",
+    "codes": "WealthGem"
+  },
+  {
+    "name": "Disassembly Wrench",
+    "type": "toggle",
+    "img": "images/items/Disassembly Wrench.png",
+    "codes": "DisassemblyWrench"
+  },
+  {
+    "name": "Good Fortune Token",
+    "type": "toggle",
+    "img": "images/items/Good Fortune Token.png",
+    "codes": "GoodFortuneToken"
+  },
+  {
+    "name": "Staff Projector",
+    "type": "toggle",
+    "img": "images/items/Staff Projector.png",
+    "codes": "StaffProjector"
+  },
+  {
+    "name": "Perfect Projector",
+    "type": "toggle",
+    "img": "images/items/Perfect Projector.png",
+    "codes": "PerfectProjector"
+  },
+  {
+    "name": "Special Privilege Card",
+    "type": "toggle",
+    "img": "images/items/Special Privilege Card.png",
+    "codes": "SpecialPrivilegeCard"
+  },
+  {
+    "name": "Smelting Furnace",
+    "type": "toggle",
+    "img": "images/items/Smelting Furnace.png",
+    "codes": "SmeltingFurnace"
+  },
+    
+  {
+    "name": "Adaptive Exoskeleton",
+    "type": "toggle",
+    "img": "images/items/Adaptive Exoskeleton.png",
+    "codes": "AdaptiveExoskeleton"
+  },
+  {
+    "name": "Analgesia Chip",
+    "type": "toggle",
+    "img": "images/items/Analgesia Chip.png",
+    "codes": "AnalgesiaChip"
+  },
+  {
+    "name": "Anti-Grav Boots",
+    "type": "toggle",
+    "img": "images/items/Anti-Grav Boots.png",
+    "codes": "Anti-GravBoots"
+  },
+  {
+    "name": "Bastion Projector",
+    "type": "toggle",
+    "img": "images/items/Bastion Projector.png",
+    "codes": "BastionProjector"
+  },
+  {
+    "name": "Bloodthirsty",
+    "type": "toggle",
+    "img": "images/items/Bloodthirsty.png",
+    "codes": "Bloodthirsty"
+  },
+  {
+    "name": "Blossom to the Stride",
+    "type": "toggle",
+    "img": "images/items/Blossom to the Stride.png",
+    "codes": "BlossomToTheStride"
+  },
+  {
+    "name": "Caloric Overload",
+    "type": "toggle",
+    "img": "images/items/Caloric Overload.png",
+    "codes": "CaloricOverload"
+  },
+  {
+    "name": "Charging Sail",
+    "type": "toggle",
+    "img": "images/items/Charging Sail.png",
+    "codes": "ChargingSail"
+  },
+  {
+    "name": "Chasing Stars",
+    "type": "toggle",
+    "img": "images/items/Chasing Stars.png",
+    "codes": "ChasingStars"
+  },
+  {
+    "name": "Chassis of Retribution",
+    "type": "toggle",
+    "img": "images/items/Chassis of Retribution.png",
+    "codes": "ChassisOfRetribution"
+  },
+  {
+    "name": "Codex of Combat",
+    "type": "toggle",
+    "img": "images/items/Codex of Combat.png",
+    "codes": "CodexOfCombat"
+  },
+  {
+    "name": "Confidence Injector",
+    "type": "toggle",
+    "img": "images/items/Confidence Injector.png",
+    "codes": "ConfidenceInjector"
+  },
+  {
+    "name": "Decapitation Operation",
+    "type": "toggle",
+    "img": "images/items/Decapitation Operation.png",
+    "codes": "DecapitationOperation"
+  },
+  {
+    "name": "Electromagnetic Catapult",
+    "type": "toggle",
+    "img": "images/items/Electromagnetic Catapult.png",
+    "codes": "ElectromagneticCatapult"
+  },
+  {
+    "name": "Firestorm Surge",
+    "type": "toggle",
+    "img": "images/items/Firestorm Surge.png",
+    "codes": "FirestormSurge"
+  },
+  {
+    "name": "Fist of Fury",
+    "type": "toggle",
+    "img": "images/items/Fist of Fury.png",
+    "codes": "FistOfFury"
+  },
+  {
+    "name": "Flash Grenade",
+    "type": "toggle",
+    "img": "images/items/Flash Grenade.png",
+    "codes": "FlashGrenade"
+  },
+  {
+    "name": "High-frequency Chainsaw",
+    "type": "toggle",
+    "img": "images/items/High-frequency Chainsaw.png",
+    "codes": "High-frequencyChainsaw"
+  },
+  {
+    "name": "Light Speed Propeller",
+    "type": "toggle",
+    "img": "images/items/Light Speed Propeller.png",
+    "codes": "LightSpeedPropeller"
+  },
+  {
+    "name": "Lightning Boots",
+    "type": "toggle",
+    "img": "images/items/Lightning Boots.png",
+    "codes": "LightningBoots"
+  },
+  {
+    "name": "Meteor Wings",
+    "type": "toggle",
+    "img": "images/items/Meteor Wings.png",
+    "codes": "MeteorWings"
+  },
+  {
+    "name": "Molecular Solvent",
+    "type": "toggle",
+    "img": "images/items/Molecular Solvent.png",
+    "codes": "MolecularSolvent"
+  },
+  {
+    "name": "Momentum Edge",
+    "type": "toggle",
+    "img": "images/items/Momentum Edge.png",
+    "codes": "MomentumEdge"
+  },
+  {
+    "name": "Orbital Railgun",
+    "type": "toggle",
+    "img": "images/items/Orbital Railgun.png",
+    "codes": "OrbitalRailgun"
+  },
+  {
+    "name": "Perpetual Engine",
+    "type": "toggle",
+    "img": "images/items/Perpetual Engine.png",
+    "codes": "PerpetualEngine"
+  },
+  {
+    "name": "Photon Shield",
+    "type": "toggle",
+    "img": "images/items/Photon Shield.png",
+    "codes": "PhotonShield"
+  },
+  {
+    "name": "Planetary Drill",
+    "type": "toggle",
+    "img": "images/items/Planetary Drill.png",
+    "codes": "PlanetaryDrill"
+  },
+  {
+    "name": "Pun Generator",
+    "type": "toggle",
+    "img": "images/items/Pun Generator.png",
+    "codes": "PunGenerator"
+  },
+  {
+    "name": "Ring of Life",
+    "type": "toggle",
+    "img": "images/items/Ring of Life.png",
+    "codes": "RingOfLife"
+  },
+  {
+    "name": "Starcleaver Blade",
+    "type": "toggle",
+    "img": "images/items/Starcleaver Blade.png",
+    "codes": "StarcleaverBlade"
+  },
+  {
+    "name": "Starfall Sniper",
+    "type": "toggle",
+    "img": "images/items/Starfall Sniper.png",
+    "codes": "StarfallSniper"
+  },
+  {
+    "name": "Sturdy Plate",
+    "type": "toggle",
+    "img": "images/items/Sturdy Plate.png",
+    "codes": "SturdyPlate"
+  },
+  {
+    "name": "Victory Banner",
+    "type": "toggle",
+    "img": "images/items/Victory Banner.png",
+    "codes": "VictoryBanner"
+  },
+  {
+    "name": "Weapon Master",
+    "type": "toggle",
+    "img": "images/items/Weapon Master.png",
+    "codes": "WeaponMaster"
+  },
+  {
+    "name": "Whatever Dice",
+    "type": "toggle",
+    "img": "images/items/Whatever Dice.png",
+    "codes": "WhateverDice"
+  },
+  {
+    "name": "Wormhole Drill",
+    "type": "toggle",
+    "img": "images/items/Wormhole Drill.png",
+    "codes": "WormholeDrill"
+  },
+  {
+    "name": "Emblems",
+    "type": "toggle",
+    "img": "images/items/Emblems.png",
+    "codes": "Emblems"
+  }
+  
+]

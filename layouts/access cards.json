@@ -1,0 +1,33 @@
+{
+    "access_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "A1_Access",
+								"A2_Access",
+								"A3_Access",
+								"A4_Access",
+								"A5_Access",
+								"A6_Access",
+								"A7_Access",
+								"A8_Access"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
