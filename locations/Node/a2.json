@@ -1,0 +1,140 @@
+[
+  {
+    "name": "A2",
+	"access_rules": ["A1 Access, A2 Access, @Character:7, @Basic Item:5, @Advanced Item:2"],
+    "children": [
+      {
+        "name": "A2 1-1",
+        "sections": [
+          {
+            "name": "A2 Reward 1-1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a2",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A2 1-2",
+        "sections": [
+          {
+            "name": "A2 Reward 1-2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a2",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A2 1-8",
+        "sections": [
+          {
+            "name": "A2 Reward 1-8",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a2",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A2 1-9",
+        "sections": [
+		  {
+            "name": "A2 Boss 1-9",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a2",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A2 2-6",
+        "sections": [
+          {
+            "name": "A2 Reward 2-6",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a2",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A2 2-7",
+        "sections": [
+		  {
+            "name": "A2 Boss 2-7",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a2",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A2 3-6",
+        "sections": [
+          {
+            "name": "A2 Reward 3-6",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a2",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A2 3-7",
+        "sections": [
+		  {
+            "name": "A2 Boss 3-7",
+            "item_count": 1
+          },
+          {
+            "name": "A2 Completion",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a2",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      }
+    ]
+  }
+]

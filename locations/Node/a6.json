@@ -1,0 +1,140 @@
+[
+  {
+    "name": "A6",
+	"access_rules": ["A1 Access, A2 Access, A3 Access, A4 Access, A5 Access, A6 Access"],
+    "children": [
+      {
+        "name": "A6 1-1",
+        "sections": [
+          {
+            "name": "A6 Reward 1-1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a6",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A6 1-2",
+        "sections": [
+          {
+            "name": "A6 Reward 1-2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a6",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A6 1-8",
+        "sections": [
+          {
+            "name": "A6 Reward 1-8",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a6",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A6 1-9",
+        "sections": [
+		  {
+            "name": "A6 Boss 1-9",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a6",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A6 2-6",
+        "sections": [
+          {
+            "name": "A6 Reward 2-6",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a6",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A6 2-7",
+        "sections": [
+		  {
+            "name": "A6 Boss 2-7",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a6",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A6 3-6",
+        "sections": [
+          {
+            "name": "A6 Reward 3-6",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a6",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+	  {
+        "name": "A6 3-7",
+        "sections": [
+		  {
+            "name": "A6 Boss 3-7",
+            "item_count": 1
+          },
+          {
+            "name": "A6 Completion",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "a6",
+            "x": 1,
+            "y": 1
+          }
+        ]
+      }
+    ]
+  }
+]
