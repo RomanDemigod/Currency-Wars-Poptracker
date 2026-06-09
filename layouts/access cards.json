@@ -7,23 +7,24 @@
             {
                 "type": "array",
                 "orientation": "vertical",
-                "margin": "0,0",
+                "margin": "15,0,0,0",
                 "content": [
                     {
                         "type": "itemgrid",
                         "item_margin": "2, 2",
-                        "h_alignment": "left",
+                        "h_alignment": "center",
+						"v_alignment": "center",
+						"item_height": 50,
+						"item_width": 50,
                         "rows": [
-                            [
-                                "A1_Access",
-								"A2_Access",
-								"A3_Access",
-								"A4_Access",
-								"A5_Access",
-								"A6_Access",
-								"A7_Access",
-								"A8_Access"
-                            ]
+                            ["A1_Access"],
+							["A2_Access"],
+							["A3_Access"],
+							["A4_Access"],
+							["A5_Access"],
+							["A6_Access"],
+							["A7_Access"],
+							["A8_Access"]
                         ]
                     }
                 ]
