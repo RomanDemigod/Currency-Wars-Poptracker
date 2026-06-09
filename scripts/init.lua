@@ -39,6 +39,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
 	Tracker:AddLocations("locations/Node/a6.json")
 	Tracker:AddLocations("locations/Node/a7.json")
 	Tracker:AddLocations("locations/Node/a8.json")
+	Tracker:AddLocations("locations/bosses.json")
 end
 
 -- Layout
@@ -48,6 +49,7 @@ Tracker:AddLayouts("layouts/equipment.json")
 Tracker:AddLayouts("layouts/characters.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
+Tracker:AddLayouts("layouts/tabs.json")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then
