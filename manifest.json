@@ -13,7 +13,6 @@
     "standard": {
       "display_name": "Map Tracker",
       "flags": [
-        // enables AP autotracking interface - remove if not needed
         "ap",
 		"apmanual"
       ]
