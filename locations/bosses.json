@@ -1,0 +1,349 @@
+[
+  {
+    "name": "Bosses",
+    "children": [
+      {
+        "name": "Defeat @SparxiConOfficial",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 282,
+            "y": 183
+          }
+        ]
+      },
+      {
+        "name": "Defeat Abundant Ebon Deer",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 573,
+            "y": 183
+          }
+        ]
+      },
+      {
+        "name": "Defeat Alloy Mechatron: King Pom-Pom",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 863,
+            "y": 183
+          }
+        ]
+      },
+      {
+        "name": "Defeat Argenti",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 1154,
+            "y": 183
+          }
+        ]
+      },
+      {
+        "name": "Defeat Cocolia",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 1444,
+            "y": 183
+          }
+        ]
+      },
+      {
+        "name": "Defeat First Genius, Entelechy, Zandar",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 1735,
+            "y": 183
+          }
+        ]
+      },
+      {
+        "name": "Defeat Flame Reaver",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 282,
+            "y": 416
+          }
+        ]
+      },
+      {
+        "name": "Defeat Gepard",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 573,
+            "y": 416
+          }
+        ]
+      },
+      {
+        "name": "Defeat Illwish Archlotus",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 863,
+            "y": 416
+          }
+        ]
+      },
+      {
+        "name": "Defeat Incarnation of Strife",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 1154,
+            "y": 416
+          }
+        ]
+      },
+      {
+        "name": "Defeat Judge of Oblivion",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 1444,
+            "y": 416
+          }
+        ]
+      },
+      {
+        "name": "Defeat Pollux",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 1735,
+            "y": 416
+          }
+        ]
+      },
+      {
+        "name": "Defeat Stellaron Hunter: Sam",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 186,
+            "y": 649
+          }
+        ]
+      },
+      {
+        "name": "Defeat Stellaron Hunter: Kafka",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 282,
+            "y": 553
+          }
+        ]
+      },
+      {
+        "name": "Defeat Svarog",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 573,
+            "y": 649
+          }
+        ]
+      },
+      {
+        "name": "Defeat Swarm Nightmare",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 863,
+            "y": 649
+          }
+        ]
+      },
+      {
+        "name": "Defeat The Past, Present and Eternal Show",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 1154,
+            "y": 649
+          }
+        ]
+      },
+      {
+        "name": "Defeat Wonder Forest's Banacademic Office Staff",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 1444,
+            "y": 649
+          }
+        ]
+      },
+      {
+        "name": "Defeat Yanqing",
+        "sections": [
+          {
+            "name": "",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 1735,
+            "y": 649
+          }
+        ]
+      }
+    ]
+  }
+]
