@@ -4,456 +4,456 @@
     "name": "Welt",
     "type": "toggle",
     "img": "images/items/Welt.png",
-    "codes": "Welt"
+    "codes": "Welt, Character, 5_Cost_Character, Support, On_Field"
   },
   {
     "name": "Archer",
     "type": "toggle",
     "img": "images/items/Archer.png",
-    "codes": "Archer"
+    "codes": "Archer, Character, 5_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Topaz & Numby",
     "type": "toggle",
     "img": "images/items/Topaz & Numby.png",
-    "codes": "Topaz"
+    "codes": "Topaz, Character, 5_Cost_Character, DPS, Off_Field"
   },
   {
     "name": "Jing Yuan",
     "type": "toggle",
     "img": "images/items/Jing Yuan.png",
-    "codes": "JingYuan"
+    "codes": "JingYuan, Character, 5_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Yunli",
     "type": "toggle",
     "img": "images/items/Yunli.png",
-    "codes": "Yunli"
+    "codes": "Yunli, Character, 5_Cost_Character, DPS, Support, Off_Field"
   },
   {
     "name": "Black Swan",
     "type": "toggle",
     "img": "images/items/Black Swan.png",
-    "codes": "BlackSwan"
+    "codes": "BlackSwan, Character, 5_Cost_Character, DPS, Off_Field"
   },
   {
     "name": "Firefly",
     "type": "toggle",
     "img": "images/items/Firefly.png",
-    "codes": "Firefly"
+    "codes": "Firefly, Character, 5_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Cyrene",
     "type": "toggle",
     "img": "images/items/Cyrene.png",
-    "codes": "Cyrene"
+    "codes": "Cyrene, Character, 5_Cost_Character, Support, On_Field"
   },
   {
     "name": "Bronya",
     "type": "toggle",
     "img": "images/items/Bronya.png",
-    "codes": "Bronya"
+    "codes": "Bronya, Character, 5_Cost_Character, Support, On_Field"
   },
     
   {
     "name": "Silver Wolf",
     "type": "toggle",
     "img": "images/items/Silver Wolf.png",
-    "codes": "SilverWolf"
+    "codes": "SilverWolf, Character, 4_Cost_Character, Support, Advisor, On_Field, Off_Field"
   },
   {
     "name": "Gepard",
     "type": "toggle",
     "img": "images/items/Gepard.png",
-    "codes": "Gepard"
+    "codes": "Gepard, Character, 4_Cost_Character, Support, On_Field"
   },
   {
     "name": "Luocha",
     "type": "toggle",
     "img": "images/items/Luocha.png",
-    "codes": "Luocha"
+    "codes": "Luocha, Character, 4_Cost_Character, Healer, Off_Field"
   },
   {
     "name": "Fu Xuan",
     "type": "toggle",
     "img": "images/items/Fu Xuan.png",
-    "codes": "FuXuan"
+    "codes": "FuXuan, Character, 4_Cost_Character, Support, Healer, Off_Field"
   },
   {
     "name": "Yanqing",
     "type": "toggle",
     "img": "images/items/Yanqing.png",
-    "codes": "Yanqing"
+    "codes": "Yanqing, Character, 4_Cost_Character, DPS, Off_Field"
   },
   {
     "name": "Robin",
     "type": "toggle",
     "img": "images/items/Robin.png",
-    "codes": "Robin"
+    "codes": "Robin, Character, 4_Cost_Character, Support, Off_Field"
   },
   {
     "name": "Boothill",
     "type": "toggle",
     "img": "images/items/Boothill.png",
-    "codes": "Boothill"
+    "codes": "Boothill, Character, 4_Cost_Character, DPS, On_Field"
   },
   {
     "name": "The Herta",
     "type": "toggle",
     "img": "images/items/The Herta.png",
-    "codes": "TheHerta"
+    "codes": "TheHerta, Character, 4_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Castorice",
     "type": "toggle",
     "img": "images/items/Castorice.png",
-    "codes": "Castorice"
+    "codes": "Castorice, Character, 4_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Hysilens",
     "type": "toggle",
     "img": "images/items/Hysilens.png",
-    "codes": "Hysilens"
+    "codes": "Hysilens, Character, 4_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Evernight",
     "type": "toggle",
     "img": "images/items/Evernight.png",
-    "codes": "Evernight"
+    "codes": "Evernight, Character, 4_Cost_Character, DPS, On_Field, Off_Field"
   },
   {
     "name": "Sparxie",
     "type": "toggle",
     "img": "images/items/Sparxie.png",
-    "codes": "Sparxie"
+    "codes": "Sparxie, Character, 4_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Trailblazer",
     "type": "toggle",
     "img": "images/items/Trailblazer.png",
-    "codes": "Trailblazer"
+    "codes": "Trailblazer, Character, 4_Cost_Character, Support, On_Field, Off_Field"
   },  
   
   {
     "name": "Himeko",
     "type": "toggle",
     "img": "images/items/Himeko.png",
-    "codes": "Himeko"
+    "codes": "Himeko, Character, 3_Cost_Character, DPS, Off_Field"
   },
   {
     "name": "Saber",
     "type": "toggle",
     "img": "images/items/Saber.png",
-    "codes": "Saber"
+    "codes": "Saber, Character, 3_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Seele",
     "type": "toggle",
     "img": "images/items/Seele.png",
-    "codes": "Seele"
+    "codes": "Seele, Character, 3_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Natasha",
     "type": "toggle",
     "img": "images/items/Natasha.png",
-    "codes": "Natasha"
+    "codes": "Natasha, Character, 3_Cost_Character, Healer, On_Field, Off_Field"
   },
   {
     "name": "Jingliu",
     "type": "toggle",
     "img": "images/items/Jingliu.png",
-    "codes": "Jingliu"
+    "codes": "Jingliu, Character, 3_Cost_Character, DPS, Off_Field"
   },
   {
     "name": "Fugue",
     "type": "toggle",
     "img": "images/items/Fugue.png",
-    "codes": "Fugue"
+    "codes": "Fugue, Character, 3_Cost_Character, DPS, Off_Field"
   },
   {
     "name": "Dr. Ratio",
     "type": "toggle",
     "img": "images/items/Dr. Ratio.png",
-    "codes": "DrRatio"
+    "codes": "DrRatio, Character, 3_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Acheron",
     "type": "toggle",
     "img": "images/items/Acheron.png",
-    "codes": "Acheron"
+    "codes": "Acheron, Character, 3_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Sunday",
     "type": "toggle",
     "img": "images/items/Sunday.png",
-    "codes": "Sunday"
+    "codes": "Sunday, Character, 3_Cost_Character, Support, On_Field"
   },
   {
     "name": "Anaxa",
     "type": "toggle",
     "img": "images/items/Anaxa.png",
-    "codes": "Anaxa"
+    "codes": "Anaxa, Character, 3_Cost_Character, DPS, Support, Off_Field"
   },
   {
     "name": "Phainon",
     "type": "toggle",
     "img": "images/items/Phainon.png",
-    "codes": "Phainon"
+    "codes": "Phainon, Character, 3_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Cerydra",
     "type": "toggle",
     "img": "images/items/Cerydra.png",
-    "codes": "Cerydra"
+    "codes": "Cerydra, Character, 3_Cost_Character, Support, On_Field, Off_Field"
   },
   {
     "name": "Silver Wolf LV.999",
     "type": "toggle",
     "img": "images/items/Silver Wolf LV.999.png",
-    "codes": "SilverWolf999"
+    "codes": "SilverWolf999, Character, 3_Cost_Character, DPS, On_Field"
   },
   
   {
     "name": "Kafka",
     "type": "toggle",
     "img": "images/items/Kafka.png",
-    "codes": "Kafka"
+    "codes": "Kafka, Character, 2_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Pela",
     "type": "toggle",
     "img": "images/items/Pela.png",
-    "codes": "Pela"
+    "codes": "Pela, Character, 2_Cost_Character, Support, Off_Field"
   },
   {
     "name": "Dan Heng IL",
     "type": "toggle",
     "img": "images/items/Dan Heng IL.png",
-    "codes": "DanHengIL"
+    "codes": "DanHengIL, Character, 2_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Argenti",
     "type": "toggle",
     "img": "images/items/Argenti.png",
-    "codes": "Argenti"
+    "codes": "Argenti, Character, 2_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Ruan Mei",
     "type": "toggle",
     "img": "images/items/Ruan Mei.png",
-    "codes": "RuanMei"
+    "codes": "RuanMei, Character, 2_Cost_Character, Support, Off_Field"
   },
   {
     "name": "Aventurine",
     "type": "toggle",
     "img": "images/items/Aventurine.png",
-    "codes": "Aventurine"
+    "codes": "Aventurine, Character, 2_Cost_Character, Support, On_Field"
   },
   {
     "name": "Sparkle",
     "type": "toggle",
     "img": "images/items/Sparkle.png",
-    "codes": "Sparkle"
+    "codes": "Sparkle, Character, 2_Cost_Character, Support, Off_Field"
   },
   {
     "name": "Lingsha",
     "type": "toggle",
     "img": "images/items/Lingsha.png",
-    "codes": "Lingsha"
+    "codes": "Lingsha, Character, 2_Cost_Character, DPS, Healer, On_Field"
   },
   {
     "name": "Tribbie",
     "type": "toggle",
     "img": "images/items/Tribbie.png",
-    "codes": "Tribbie"
+    "codes": "Tribbie, Character, 2_Cost_Character, Support, On_Field, Off_Field"
   },
   {
     "name": "Mydei",
     "type": "toggle",
     "img": "images/items/Mydei.png",
-    "codes": "Mydei"
+    "codes": "Mydei, Character, 2_Cost_Character, DPS, On_Field, Off_Field"
   },
   {
     "name": "Hyacine",
     "type": "toggle",
     "img": "images/items/Hyacine.png",
-    "codes": "Hyacine"
+    "codes": "Hyacine, Character, 2_Cost_Character, DPS, Healer, On_Field"
   },
   {
     "name": "Dan Heng PT",
     "type": "toggle",
     "img": "images/items/Dan Heng PT.png",
-    "codes": "DanHengPT"
+    "codes": "DanHengPT, Character, 2_Cost_Character, Support, Off_Field"
   },
   {
     "name": "Ashveil",
     "type": "toggle",
     "img": "images/items/Ashveil.png",
-    "codes": "Ashveil"
+    "codes": "Ashveil, Character, 2_Cost_Character, DPS, On_Field, Off_Field"
   },
   {
     "name": "Evanescia",
     "type": "toggle",
     "img": "images/items/Evanescia.png",
-    "codes": "Evanescia"
+    "codes": "Evanescia, Character, 2_Cost_Character, DPS, On_Field, Off_Field"
   },
   
   {
     "name": "March 7th",
     "type": "toggle",
     "img": "images/items/March 7th.png",
-    "codes": "March7th"
+    "codes": "March7th, Character, 1_Cost_Character, Support, Off_Field"
   },
   {
     "name": "Asta",
     "type": "toggle",
     "img": "images/items/Asta.png",
-    "codes": "Asta"
+    "codes": "Asta, Character, 1_Cost_Character, Sub_DPS, Support, On_Field"
   },
   {
     "name": "Herta",
     "type": "toggle",
     "img": "images/items/Herta.png",
-    "codes": "Herta"
+    "codes": "Herta, Character, 1_Cost_Character, DPS, On_Field, Off_Field"
   },
   {
     "name": "Sampo",
     "type": "toggle",
     "img": "images/items/Sampo.png",
-    "codes": "Sampo"
+    "codes": "Sampo, Character, 1_Cost_Character, On_Field, Off_Field"
   },
   {
     "name": "Feixiao",
     "type": "toggle",
     "img": "images/items/Feixiao.png",
-    "codes": "Feixiao"
+    "codes": "Feixiao, Character, 1_Cost_Character, On_Field"
   },
   {
     "name": "Qingque",
     "type": "toggle",
     "img": "images/items/Qingque.png",
-    "codes": "Qingque"
+    "codes": "Qingque, Character, 1_Cost_Character, DPS, Advisor, On_Field"
   },
   {
     "name": "Tingyun",
     "type": "toggle",
     "img": "images/items/Tingyun.png",
-    "codes": "Tingyun"
+    "codes": "Tingyun, Character, 1_Cost_Character, Support, Advisor, Off_Field"
   },
   {
     "name": "Blade",
     "type": "toggle",
     "img": "images/items/Blade.png",
-    "codes": "Blade"
+    "codes": "Blade, Character, 1_Cost_Character, DPS, Off_Field"
   },
   {
     "name": "Huohuo",
     "type": "toggle",
     "img": "images/items/Huohuo.png",
-    "codes": "Huohuo"
+    "codes": "Huohuo, Character, 1_Cost_Character, Support, Healer, On_Field, Off_Field"
   },
   {
     "name": "Jiaoqiu",
     "type": "toggle",
     "img": "images/items/Jiaoqiu.png",
-    "codes": "Jiaoqiu"
+    "codes": "Jiaoqiu, Character, 1_Cost_Character, Support, Healer, Off_Field"
   },
   {
     "name": "Moze",
     "type": "toggle",
     "img": "images/items/Moze.png",
-    "codes": "Moze"
+    "codes": "Moze, Character, 1_Cost_Character, DPS, Support, Advisor, Off_Field"
   },
   {
     "name": "Gallagher",
     "type": "toggle",
     "img": "images/items/Gallagher.png",
-    "codes": "Gallagher"
+    "codes": "Gallagher, Character, 1_Cost_Character, Healer, Advisor, On_Field, Off_Field"
   },
   {
     "name": "Jade",
     "type": "toggle",
     "img": "images/items/Jade.png",
-    "codes": "Jade"
+    "codes": "Jade, Character, 1_Cost_Character, DPS, Off_Field"
   },
   {
     "name": "Rappa",
     "type": "toggle",
     "img": "images/items/Rappa.png",
-    "codes": "Rappa"
+    "codes": "Rappa, Character, 1_Cost_Character, DPS, On_Field"
   },
   {
     "name": "The Dahlia",
     "type": "toggle",
     "img": "images/items/The Dahlia.png",
-    "codes": "TheDahlia"
+    "codes": "TheDahlia, Character, 1_Cost_Character, Support, On_Field, Off_Field"
   },
   {
     "name": "Aglaea",
     "type": "toggle",
     "img": "images/items/Aglaea.png",
-    "codes": "Aglaea"
+    "codes": "Aglaea, Character, 1_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Cipher",
     "type": "toggle",
     "img": "images/items/Cipher.png",
-    "codes": "Cipher"
+    "codes": "Cipher, Character, 1_Cost_Character, DPS, On_Field"
   },
   {
     "name": "Yao Guang",
     "type": "toggle",
     "img": "images/items/Yao Guang.png",
-    "codes": "YaoGuang"
+    "codes": "YaoGuang, Character, 1_Cost_Character"
   },
   
   {
     "name": "A1 Access",
     "type": "toggle",
     "img": "images/items/A1 Access.png",
-    "codes": "A1_Access"
+    "codes": "A1_Access, Access_Card"
   },
   {
     "name": "A2 Access",
     "type": "toggle",
     "img": "images/items/A2 Access.png",
-    "codes": "A2_Access"
+    "codes": "A2_Access, Access_Card"
   },
   {
     "name": "A3 Access",
     "type": "toggle",
     "img": "images/items/A3 Access.png",
-    "codes": "A3_Access"
+    "codes": "A3_Access, Access_Card"
   },
   {
     "name": "A4 Access",
     "type": "toggle",
     "img": "images/items/A4 Access.png",
-    "codes": "A4_Access"
+    "codes": "A4_Access, Access_Card"
   },
   {
     "name": "A5 Access",
     "type": "toggle",
     "img": "images/items/A5 Access.png",
-    "codes": "A5_Access"
+    "codes": "A5_Access, Access_Card"
   },
   {
     "name": "A6 Access",
     "type": "toggle",
     "img": "images/items/A6 Access.png",
-    "codes": "A6_Access"
+    "codes": "A6_Access, Access_Card"
   },
   {
     "name": "A7 Access",
     "type": "toggle",
     "img": "images/items/A7 Access.png",
-    "codes": "A7_Access"
+    "codes": "A7_Access, Access_Card"
   },
   {
     "name": "A8 Access",
     "type": "toggle",
     "img": "images/items/A8 Access.png",
-    "codes": "A8_Access"
+    "codes": "A8_Access, Access_Card"
   },
   
   
@@ -461,339 +461,326 @@
     "name": "Aether Drill",
     "type": "toggle",
     "img": "images/items/Aether Drill.png",
-    "codes": "AetherDrill"
+    "codes": "AetherDrill, Basic_Item"
   },
   {
     "name": "Batch Produced Armor",
     "type": "toggle",
     "img": "images/items/Batch Produced Armor.png",
-    "codes": "BatchProducedArmor"
+    "codes": "BatchProducedArmor, Basic_Item"
   },
   {
     "name": "Flower of Life",
     "type": "toggle",
     "img": "images/items/Flower of Life.png",
-    "codes": "FlowerOfLife"
+    "codes": "FlowerOfLife, Basic_Item"
   },
   {
     "name": "Folding Knife",
     "type": "toggle",
     "img": "images/items/Folding Knife.png",
-    "codes": "FoldingKnife"
+    "codes": "FoldingKnife, Basic_Item"
   },
   {
     "name": "Lucky Star",
     "type": "toggle",
     "img": "images/items/Lucky Star.png",
-    "codes": "LuckyStar"
+    "codes": "LuckyStar, Basic_Item"
   },
   {
     "name": "Peace Pistol",
     "type": "toggle",
     "img": "images/items/Peace Pistol.png",
-    "codes": "PeacePistol"
+    "codes": "PeacePistol, Basic_Item"
   },
   {
     "name": "Photon Cell",
     "type": "toggle",
     "img": "images/items/Photon Cell.png",
-    "codes": "PhotonCell"
+    "codes": "PhotonCell, Basic_Item"
   },
   {
     "name": "Roller Skates",
     "type": "toggle",
     "img": "images/items/Roller Skates.png",
-    "codes": "RollerSkates"
-  },
-  
-  {
-    "name": "Golden Trash Bag",
-    "type": "toggle",
-    "img": "images/items/Golden Trash Bag.png",
-    "codes": "GoldenTrashBag"
-  },
-  {
-    "name": "Trash Bag",
-    "type": "toggle",
-    "img": "images/items/Trash Bag.png",
-    "codes": "TrashBag"
+    "codes": "RollerSkates, Basic_Item"
   },
   {
     "name": "Red Gem",
     "type": "toggle",
     "img": "images/items/Red Gem.png",
-    "codes": "RedGem"
+    "codes": "RedGem, Basic_Item"
   },
   {
     "name": "Blue Gem",
     "type": "toggle",
     "img": "images/items/Blue Gem.png",
-    "codes": "BlueGem"
+    "codes": "BlueGem, Basic_Item"
   },
   {
     "name": "Wealth Gem",
     "type": "toggle",
     "img": "images/items/Wealth Gem.png",
-    "codes": "WealthGem"
+    "codes": "WealthGem, Basic_Item"
   },
   {
     "name": "Disassembly Wrench",
     "type": "toggle",
     "img": "images/items/Disassembly Wrench.png",
-    "codes": "DisassemblyWrench"
+    "codes": "DisassemblyWrench, Consumable"
   },
   {
     "name": "Good Fortune Token",
     "type": "toggle",
     "img": "images/items/Good Fortune Token.png",
-    "codes": "GoodFortuneToken"
+    "codes": "GoodFortuneToken, Consumable"
   },
   {
     "name": "Staff Projector",
     "type": "toggle",
     "img": "images/items/Staff Projector.png",
-    "codes": "StaffProjector"
+    "codes": "StaffProjector, Consumable"
   },
   {
     "name": "Perfect Projector",
     "type": "toggle",
     "img": "images/items/Perfect Projector.png",
-    "codes": "PerfectProjector"
+    "codes": "PerfectProjector, Consumable"
   },
   {
     "name": "Special Privilege Card",
     "type": "toggle",
     "img": "images/items/Special Privilege Card.png",
-    "codes": "SpecialPrivilegeCard"
+    "codes": "SpecialPrivilegeCard, Consumable"
   },
   {
     "name": "Smelting Furnace",
     "type": "toggle",
     "img": "images/items/Smelting Furnace.png",
-    "codes": "SmeltingFurnace"
+    "codes": "SmeltingFurnace, Consumable"
   },
     
   {
     "name": "Adaptive Exoskeleton",
     "type": "toggle",
     "img": "images/items/Adaptive Exoskeleton.png",
-    "codes": "AdaptiveExoskeleton"
+    "codes": "AdaptiveExoskeleton, Advanced_Item"
   },
   {
     "name": "Analgesia Chip",
     "type": "toggle",
     "img": "images/items/Analgesia Chip.png",
-    "codes": "AnalgesiaChip"
+    "codes": "AnalgesiaChip, Advanced_Item"
   },
   {
     "name": "Anti-Grav Boots",
     "type": "toggle",
     "img": "images/items/Anti-Grav Boots.png",
-    "codes": "Anti-GravBoots"
+    "codes": "Anti-GravBoots, Advanced_Item"
   },
   {
     "name": "Bastion Projector",
     "type": "toggle",
     "img": "images/items/Bastion Projector.png",
-    "codes": "BastionProjector"
+    "codes": "BastionProjector, Advanced_Item"
   },
   {
     "name": "Bloodthirsty",
     "type": "toggle",
     "img": "images/items/Bloodthirsty.png",
-    "codes": "Bloodthirsty"
+    "codes": "Bloodthirsty, Advanced_Item"
   },
   {
     "name": "Blossom to the Stride",
     "type": "toggle",
     "img": "images/items/Blossom to the Stride.png",
-    "codes": "BlossomToTheStride"
+    "codes": "BlossomToTheStride, Advanced_Item"
   },
   {
     "name": "Caloric Overload",
     "type": "toggle",
     "img": "images/items/Caloric Overload.png",
-    "codes": "CaloricOverload"
+    "codes": "CaloricOverload, Advanced_Item"
   },
   {
     "name": "Charging Sail",
     "type": "toggle",
     "img": "images/items/Charging Sail.png",
-    "codes": "ChargingSail"
+    "codes": "ChargingSail, Advanced_Item"
   },
   {
     "name": "Chasing Stars",
     "type": "toggle",
     "img": "images/items/Chasing Stars.png",
-    "codes": "ChasingStars"
+    "codes": "ChasingStars, Advanced_Item"
   },
   {
     "name": "Chassis of Retribution",
     "type": "toggle",
     "img": "images/items/Chassis of Retribution.png",
-    "codes": "ChassisOfRetribution"
+    "codes": "ChassisOfRetribution, Advanced_Item"
   },
   {
     "name": "Codex of Combat",
     "type": "toggle",
     "img": "images/items/Codex of Combat.png",
-    "codes": "CodexOfCombat"
+    "codes": "CodexOfCombat, Advanced_Item"
   },
   {
     "name": "Confidence Injector",
     "type": "toggle",
     "img": "images/items/Confidence Injector.png",
-    "codes": "ConfidenceInjector"
+    "codes": "ConfidenceInjector, Advanced_Item"
   },
   {
     "name": "Decapitation Operation",
     "type": "toggle",
     "img": "images/items/Decapitation Operation.png",
-    "codes": "DecapitationOperation"
+    "codes": "DecapitationOperation, Advanced_Item"
   },
   {
     "name": "Electromagnetic Catapult",
     "type": "toggle",
     "img": "images/items/Electromagnetic Catapult.png",
-    "codes": "ElectromagneticCatapult"
+    "codes": "ElectromagneticCatapult, Advanced_Item"
   },
   {
     "name": "Firestorm Surge",
     "type": "toggle",
     "img": "images/items/Firestorm Surge.png",
-    "codes": "FirestormSurge"
+    "codes": "FirestormSurge, Advanced_Item"
   },
   {
     "name": "Fist of Fury",
     "type": "toggle",
     "img": "images/items/Fist of Fury.png",
-    "codes": "FistOfFury"
+    "codes": "FistOfFury, Advanced_Item"
   },
   {
     "name": "Flash Grenade",
     "type": "toggle",
     "img": "images/items/Flash Grenade.png",
-    "codes": "FlashGrenade"
+    "codes": "FlashGrenade, Advanced_Item"
   },
   {
     "name": "High-frequency Chainsaw",
     "type": "toggle",
     "img": "images/items/High-frequency Chainsaw.png",
-    "codes": "High-frequencyChainsaw"
+    "codes": "High-frequencyChainsaw, Advanced_Item"
   },
   {
     "name": "Light Speed Propeller",
     "type": "toggle",
     "img": "images/items/Light Speed Propeller.png",
-    "codes": "LightSpeedPropeller"
+    "codes": "LightSpeedPropeller, Advanced_Item"
   },
   {
     "name": "Lightning Boots",
     "type": "toggle",
     "img": "images/items/Lightning Boots.png",
-    "codes": "LightningBoots"
+    "codes": "LightningBoots, Advanced_Item"
   },
   {
     "name": "Meteor Wings",
     "type": "toggle",
     "img": "images/items/Meteor Wings.png",
-    "codes": "MeteorWings"
+    "codes": "MeteorWings, Advanced_Item"
   },
   {
     "name": "Molecular Solvent",
     "type": "toggle",
     "img": "images/items/Molecular Solvent.png",
-    "codes": "MolecularSolvent"
+    "codes": "MolecularSolvent, Advanced_Item"
   },
   {
     "name": "Momentum Edge",
     "type": "toggle",
     "img": "images/items/Momentum Edge.png",
-    "codes": "MomentumEdge"
+    "codes": "MomentumEdge, Advanced_Item"
   },
   {
     "name": "Orbital Railgun",
     "type": "toggle",
     "img": "images/items/Orbital Railgun.png",
-    "codes": "OrbitalRailgun"
+    "codes": "OrbitalRailgun, Advanced_Item"
   },
   {
     "name": "Perpetual Engine",
     "type": "toggle",
     "img": "images/items/Perpetual Engine.png",
-    "codes": "PerpetualEngine"
+    "codes": "PerpetualEngine, Advanced_Item"
   },
   {
     "name": "Photon Shield",
     "type": "toggle",
     "img": "images/items/Photon Shield.png",
-    "codes": "PhotonShield"
+    "codes": "PhotonShield, Advanced_Item"
   },
   {
     "name": "Planetary Drill",
     "type": "toggle",
     "img": "images/items/Planetary Drill.png",
-    "codes": "PlanetaryDrill"
+    "codes": "PlanetaryDrill, Advanced_Item"
   },
   {
     "name": "Pun Generator",
     "type": "toggle",
     "img": "images/items/Pun Generator.png",
-    "codes": "PunGenerator"
+    "codes": "PunGenerator, Advanced_Item"
   },
   {
     "name": "Ring of Life",
     "type": "toggle",
     "img": "images/items/Ring of Life.png",
-    "codes": "RingOfLife"
+    "codes": "RingOfLife, Advanced_Item"
   },
   {
     "name": "Starcleaver Blade",
     "type": "toggle",
     "img": "images/items/Starcleaver Blade.png",
-    "codes": "StarcleaverBlade"
+    "codes": "StarcleaverBlade, Advanced_Item"
   },
   {
     "name": "Starfall Sniper",
     "type": "toggle",
     "img": "images/items/Starfall Sniper.png",
-    "codes": "StarfallSniper"
+    "codes": "StarfallSniper, Advanced_Item"
   },
   {
     "name": "Sturdy Plate",
     "type": "toggle",
     "img": "images/items/Sturdy Plate.png",
-    "codes": "SturdyPlate"
+    "codes": "SturdyPlate, Advanced_Item"
   },
   {
     "name": "Victory Banner",
     "type": "toggle",
     "img": "images/items/Victory Banner.png",
-    "codes": "VictoryBanner"
+    "codes": "VictoryBanner, Advanced_Item"
   },
   {
     "name": "Weapon Master",
     "type": "toggle",
     "img": "images/items/Weapon Master.png",
-    "codes": "WeaponMaster"
+    "codes": "WeaponMaster, Advanced_Item"
   },
   {
     "name": "Whatever Dice",
     "type": "toggle",
     "img": "images/items/Whatever Dice.png",
-    "codes": "WhateverDice"
+    "codes": "WhateverDice, Advanced_Item"
   },
   {
     "name": "Wormhole Drill",
     "type": "toggle",
     "img": "images/items/Wormhole Drill.png",
-    "codes": "WormholeDrill"
+    "codes": "WormholeDrill, Advanced_Item"
   },
   {
     "name": "Emblems",
     "type": "toggle",
     "img": "images/items/Emblems.png",
-    "codes": "Emblems"
+    "codes": "Emblems, Basic_Item"
   }
   
 ]
