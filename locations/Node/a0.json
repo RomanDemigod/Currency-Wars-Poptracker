@@ -7,18 +7,22 @@
         "sections": [
           {
             "name": "Node 1-1",
+            "chest_opened_img": "images/chest_images/clear/reward.png",
+            "chest_unopened_img": "images/chest_images/reward.png",
             "item_count": 1
           },
           {
             "name": "A0 Reward 1-1",
+            "chest_opened_img": "images/chest_images/clear/reward.png",
+            "chest_unopened_img": "images/chest_images/reward.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 531,
+            "y": 185
           }
         ]
       },
@@ -27,18 +31,22 @@
         "sections": [
           {
             "name": "Node 1-2",
+            "chest_opened_img": "images/chest_images/clear/reward.png",
+            "chest_unopened_img": "images/chest_images/reward.png",
             "item_count": 1
           },
           {
             "name": "A0 Reward 1-2",
+            "chest_opened_img": "images/chest_images/clear/reward.png",
+            "chest_unopened_img": "images/chest_images/reward.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 666,
+            "y": 185
           }
         ]
       },
@@ -47,14 +55,16 @@
         "sections": [
           {
             "name": "Node 1-3",
+            "chest_opened_img": "images/chest_images/clear/stratagem.png",
+            "chest_unopened_img": "images/chest_images/stratagem.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 801,
+            "y": 185
           }
         ]
       },
@@ -63,14 +73,16 @@
         "sections": [
           {
             "name": "Node 1-4",
+            "chest_opened_img": "images/chest_images/clear/combat.png",
+            "chest_unopened_img": "images/chest_images/combat.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 936,
+            "y": 185
           }
         ]
       },
@@ -79,14 +91,16 @@
         "sections": [
           {
             "name": "Node 1-5",
+            "chest_opened_img": "images/chest_images/clear/supply.png",
+            "chest_unopened_img": "images/chest_images/supply.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 1073,
+            "y": 185
           }
         ]
       },
@@ -95,14 +109,16 @@
         "sections": [
           {
             "name": "Node 1-6",
+            "chest_opened_img": "images/chest_images/clear/combat.png",
+            "chest_unopened_img": "images/chest_images/combat.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 1208,
+            "y": 185
           }
         ]
       },
@@ -111,14 +127,16 @@
         "sections": [
           {
             "name": "Node 1-7",
+            "chest_opened_img": "images/chest_images/clear/combat.png",
+            "chest_unopened_img": "images/chest_images/combat.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 1344,
+            "y": 185
           }
         ]
       },
@@ -127,18 +145,22 @@
         "sections": [
           {
             "name": "Node 1-8",
+            "chest_opened_img": "images/chest_images/clear/reward.png",
+            "chest_unopened_img": "images/chest_images/reward.png",
             "item_count": 1
           },
           {
             "name": "A0 Reward 1-8",
+            "chest_opened_img": "images/chest_images/clear/reward.png",
+            "chest_unopened_img": "images/chest_images/reward.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 1479,
+            "y": 185
           }
         ]
       },
@@ -147,18 +169,22 @@
         "sections": [
           {
             "name": "Boss 1-9",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
             "item_count": 1
           },
 		  {
             "name": "A0 Boss 1-9",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 1615,
+            "y": 185
           }
         ]
       },
@@ -167,14 +193,16 @@
         "sections": [
           {
             "name": "Node 2-1",
+            "chest_opened_img": "images/chest_images/clear/combat.png",
+            "chest_unopened_img": "images/chest_images/combat.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 531,
+            "y": 366
           }
         ]
       },
@@ -183,14 +211,16 @@
         "sections": [
           {
             "name": "Node 2-2",
+            "chest_opened_img": "images/chest_images/clear/stratagem.png",
+            "chest_unopened_img": "images/chest_images/stratagem.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 711,
+            "y": 366
           }
         ]
       },
@@ -199,14 +229,16 @@
         "sections": [
           {
             "name": "Node 2-3",
+            "chest_opened_img": "images/chest_images/clear/supply.png",
+            "chest_unopened_img": "images/chest_images/supply.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 892,
+            "y": 366
           }
         ]
       },
@@ -215,14 +247,16 @@
         "sections": [
           {
             "name": "Node 2-4",
+            "chest_opened_img": "images/chest_images/clear/combat.png",
+            "chest_unopened_img": "images/chest_images/combat.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 1073,
+            "y": 366
           }
         ]
       },
@@ -231,14 +265,16 @@
         "sections": [
           {
             "name": "Node 2-5",
+            "chest_opened_img": "images/chest_images/clear/combat.png",
+            "chest_unopened_img": "images/chest_images/combat.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 1254,
+            "y": 366
           }
         ]
       },
@@ -247,18 +283,22 @@
         "sections": [
           {
             "name": "Node 2-6",
+            "chest_opened_img": "images/chest_images/clear/reward.png",
+            "chest_unopened_img": "images/chest_images/reward.png",
             "item_count": 1
           },
           {
             "name": "A0 Reward 2-6",
+            "chest_opened_img": "images/chest_images/clear/reward.png",
+            "chest_unopened_img": "images/chest_images/reward.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 1434,
+            "y": 366
           }
         ]
       },
@@ -267,18 +307,22 @@
         "sections": [
           {
             "name": "Boss 2-7",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
             "item_count": 1
           },
 		  {
             "name": "A0 Boss 2-7",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 1615,
+            "y": 366
           }
         ]
       },
@@ -287,14 +331,16 @@
         "sections": [
           {
             "name": "Node 3-1",
+            "chest_opened_img": "images/chest_images/clear/combat.png",
+            "chest_unopened_img": "images/chest_images/combat.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 531,
+            "y": 548
           }
         ]
       },
@@ -303,14 +349,16 @@
         "sections": [
           {
             "name": "Node 3-2",
+            "chest_opened_img": "images/chest_images/clear/stratagem.png",
+            "chest_unopened_img": "images/chest_images/stratagem.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 711,
+            "y": 548
           }
         ]
       },
@@ -319,14 +367,16 @@
         "sections": [
           {
             "name": "Node 3-3",
+            "chest_opened_img": "images/chest_images/clear/supply.png",
+            "chest_unopened_img": "images/chest_images/supply.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 892,
+            "y": 548
           }
         ]
       },
@@ -335,14 +385,16 @@
         "sections": [
           {
             "name": "Node 3-4",
+            "chest_opened_img": "images/chest_images/clear/combat.png",
+            "chest_unopened_img": "images/chest_images/combat.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 1073,
+            "y": 548
           }
         ]
       },
@@ -351,14 +403,16 @@
         "sections": [
           {
             "name": "Node 3-5",
+            "chest_opened_img": "images/chest_images/clear/combat.png",
+            "chest_unopened_img": "images/chest_images/combat.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 1254,
+            "y": 548
           }
         ]
       },
@@ -367,18 +421,22 @@
         "sections": [
           {
             "name": "Node 3-6",
+            "chest_opened_img": "images/chest_images/clear/reward.png",
+            "chest_unopened_img": "images/chest_images/reward.png",
             "item_count": 1
           },
           {
             "name": "A0 Reward 3-6",
+            "chest_opened_img": "images/chest_images/clear/reward.png",
+            "chest_unopened_img": "images/chest_images/reward.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 1434,
+            "y": 548
           }
         ]
       },
@@ -387,22 +445,28 @@
         "sections": [
           {
             "name": "Boss 3-7",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
             "item_count": 1
           },
 		  {
             "name": "A0 Boss 3-7",
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
             "item_count": 1
           },
           {
             "name": "A0 Completion",
+            "chest_opened_img": "images/chest_images/clear/completion.png",
+            "chest_unopened_img": "images/chest_images/completion.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "a0",
-            "x": 1,
-            "y": 1
+            "x": 1615,
+            "y": 548
           }
         ]
       }
