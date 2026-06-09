@@ -1,61 +1,61 @@
 [
     {
         "name": "a0",
-        "location_size": 6,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/a0.png"
     },
     {
         "name": "a1",
-        "location_size": 6,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/a1.png"
     },
     {
         "name": "a2",
-        "location_size": 6,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/a2.png"
     },
     {
         "name": "a3",
-        "location_size": 6,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/a3.png"
     },
     {
         "name": "a4",
-        "location_size": 6,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/a4.png"
     },
     {
         "name": "a5",
-        "location_size": 6,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/a5.png"
     },
     {
         "name": "a6",
-        "location_size": 6,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/a6.png"
     },
     {
         "name": "a7",
-        "location_size": 6,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/a7.png"
     },
     {
         "name": "a8",
-        "location_size": 6,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/a8.png"
     },
 	{
         "name": "bosses",
-        "location_size": 6,
+        "location_size": 36,
         "location_border_thickness": 1,
         "img": "images/maps/bosses.png"
     }
