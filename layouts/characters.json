@@ -6,13 +6,16 @@
         "content": [
             {
                 "type": "array",
-                "orientation": "horizontal",
+                "orientation": "vertical",
                 "margin": "0,0",
                 "content": [
                     {
                         "type": "itemgrid",
                         "item_margin": "2, 2",
                         "h_alignment": "center",
+						"v_alignment": "center",
+						"item_height": 85,
+						"item_width": 85,
                         "rows": [
                             [
                                 "Welt",
@@ -23,7 +26,12 @@
 								"BlackSwan",
 								"Firefly",
 								"Cyrene",
-								"Bronya"
+								"Bronya",
+								"SilverWolf",
+								"Gepard",							
+                                "Luocha",
+                                "FuXuan",
+                                "Yanqing"
                             ]
                         ]
                     },
@@ -31,43 +39,24 @@
                         "type": "itemgrid",
                         "item_margin": "2, 2",
                         "h_alignment": "center",
+						"item_height": 85,
+						"item_width": 85,
                         "rows": [
                             [
-                                "SilverWolf",
-                                "Gepard",							
-                                "Luocha",
-                                "FuXuan",
-                                "Yanqing",
                                 "Robin",
                                 "Boothill",
                                 "TheHerta",
                                 "Castorice",
                                 "Hysilens",
-                                "Evernight",
-                                "Sparxie",
-                                "Trailblazer"
-                            ]
-                        ]
-                    },
-					{
-                        "type": "itemgrid",
-                        "item_margin": "2, 2",
-                        "h_alignment": "center",
-                        "rows": [
-                            [
+								"Evernight",
+								"Sparxie",
+                                "Trailblazer",
                                 "Himeko",
                                 "Saber",
                                 "Seele",
                                 "Natasha",
                                 "Jingliu",
                                 "Fugue",
-                                "DrRatio",
-                                "Acheron",
-                                "Sunday",
-                                "Anaxa",
-                                "Phainon",
-                                "Cerydra",
-                                "SilverWolf999"
                             ]
                         ]
                     },
@@ -75,22 +64,49 @@
                         "type": "itemgrid",
                         "item_margin": "2, 2",
                         "h_alignment": "center",
+						"item_height": 85,
+						"item_width": 85,
                         "rows": [
                             [
+                                "DrRatio",
+                                "Acheron",
+								"Sunday",
+                                "Anaxa",
+                                "Phainon",
+                                "Cerydra",
+                                "SilverWolf999",
                                 "Kafka",
                                 "Pela",
                                 "DanHengIL",
                                 "Argenti",
-                                "RuanMei",
+								 "RuanMei",
                                 "Aventurine",
-                                "Sparkle",
+                                "Sparkle"
+                            ]
+                        ]
+                    },
+					{
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+						"item_height": 85,
+						"item_width": 85,
+                        "rows": [
+                            [
                                 "Lingsha",
                                 "Tribbie",
                                 "Mydei",
                                 "Hyacine",
                                 "DanHengPT",
                                 "Ashveil",
-                                "Evanescia"
+                                "Evanescia",
+								"March7th",
+                                "Asta",
+                                "Herta",
+                                "Sampo",
+                                "Feixiao",
+                                "Qingque",
+                                "Tingyun",
                             ]
                         ]
                     },
@@ -98,15 +114,10 @@
                         "type": "itemgrid",
                         "item_margin": "2, 2",
                         "h_alignment": "center",
+						"item_height": 85,
+						"item_width": 85,
                         "rows": [
                             [
-                                "March7th",
-                                "Asta",
-                                "Herta",
-                                "Sampo",
-                                "Feixiao",
-                                "Qingque",
-                                "Tingyun",
                                 "Blade",
                                 "Huohuo",
                                 "Jiaoqiu",
