@@ -12,21 +12,9 @@
           "content": [
             {
               "type": "group",
-              "header": "Characters",
-              "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "character_grid"
-              }
-            },
-            {
-              "type": "group",
               "header": "Items",
               "dock": "left",
-              "margin": "0,0,3,0",
+              "margin": "0,0,0,0",
               "content": {
                 "type": "layout",
                 "h_alignment": "center",
@@ -34,16 +22,29 @@
                 "key": "equipment_grid"
               }
             },
-            {
+			
+            			{
               "type": "group",
               "header": "Access Cards",
               "dock": "left",
-              "margin": "0,0,3,0",
               "content": {
                 "type": "layout",
                 "h_alignment": "center",
                 "v_alignment": "center",
                 "key": "access_grid"
+              }
+            },
+			{
+              "type": "group",
+              "header": "Characters",
+              "dock": "left",
+              "margin": "0,0,3,0",
+			  "v_alignment": "center",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "character_grid"
               }
             }
           ]
@@ -52,7 +53,7 @@
           "type": "tabbed",
           "tabs": [
             {
-                "title": "a0",
+                "title": "A0",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -61,7 +62,7 @@
                 }
             },
             {
-                "title": "a1",
+                "title": "A1",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -70,7 +71,7 @@
                 }
             },
             {
-                "title": "a2",
+                "title": "A2",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -79,7 +80,7 @@
                 }
             },
             {
-                "title": "a3",
+                "title": "A3",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -88,7 +89,7 @@
                 }
             },
             {
-                "title": "a4",
+                "title": "A4",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -97,7 +98,7 @@
                 }
             },
             {
-                "title": "a5",
+                "title": "A5",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -106,7 +107,7 @@
                 }
             },
             {
-                "title": "a6",
+                "title": "A6",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -115,7 +116,7 @@
                 }
             },
             {
-                "title": "a7",
+                "title": "A7",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -124,7 +125,7 @@
                 }
             },
             {
-                "title": "a8",
+                "title": "A8",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -132,8 +133,8 @@
                     ]
                 }
             },
-			
-                "title": "bosses",
+			{
+                "title": "Bosses",
                 "content": {
                     "type": "map",
                     "maps": [
