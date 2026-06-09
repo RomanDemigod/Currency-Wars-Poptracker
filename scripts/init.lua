@@ -30,15 +30,15 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
     Tracker:AddMaps("maps/maps.json")
     -- Location
-    Tracker:AddLocations("locations/Node/a0.json")
-	Tracker:AddLocations("locations/Node/a1.json")
-	Tracker:AddLocations("locations/Node/a2.json")
-	Tracker:AddLocations("locations/Node/a3.json")
-	Tracker:AddLocations("locations/Node/a4.json")
-	Tracker:AddLocations("locations/Node/a5.json")
-	Tracker:AddLocations("locations/Node/a6.json")
-	Tracker:AddLocations("locations/Node/a7.json")
-	Tracker:AddLocations("locations/Node/a8.json")
+    Tracker:AddLocations("locations/a0.json")
+	Tracker:AddLocations("locations/a1.json")
+	Tracker:AddLocations("locations/a2.json")
+	Tracker:AddLocations("locations/a3.json")
+	Tracker:AddLocations("locations/a4.json")
+	Tracker:AddLocations("locations/a5.json")
+	Tracker:AddLocations("locations/a6.json")
+	Tracker:AddLocations("locations/a7.json")
+	Tracker:AddLocations("locations/a8.json")
 	Tracker:AddLocations("locations/bosses.json")
 end
 
