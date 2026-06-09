@@ -82,6 +82,15 @@
                         "a8"
                     ]
                 }
+            },
+            {
+                "title": "bosses",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "bosses"
+                    ]
+                }
             }
         ]
     },
@@ -166,6 +175,15 @@
                     "type": "map",
                     "maps": [
                         "a8"
+                    ]
+                }
+            },
+            {
+                "title": "bosses",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "bosses"
                     ]
                 }
             }
