@@ -101,40 +101,6 @@ function incrementItem(item_code, item_type, multiplier)
 	end
 end
 
--- apply everything needed from slot_data, called from onClear
-function apply_slot_data(slot_data)	
-	-- put any code here that slot_data should affect (toggling setting items for example)
-    --print("SLOT DATA TIME")
-    for k,v in pairs(slot_data["gamedata"]) do
-        for k2,v2 in pairs(v) do
-            --print(k.." "..k2.." = "..v2)
-            local test123 = Tracker:FindObjectForCode(k.." "..k2)
-            if test123 then
-                resetloc(k, k2, test123.AcquiredCount)
-                test123.AcquiredCount = v2
-                resetloc(k, k2, test123.AcquiredCount)
-            end
-        end
-    end
-end
-
-function resetloc(girl, slot, id)
-	--print("GIRL:"..girl.."|SLOT:"..slot.."|ID:"..id)
-	if not(string.find(slot,"shoe")==nil) then
-		local obj = Tracker:FindObjectForCode("@"..girl.." Shoe Gift "..(slot:sub(5)).."/Gift "..girl.." "..GIFT_MAPPING[id].." Gift")
-		if obj then
-    	    --print("RESETING |".."@"..girl.." Gift "..(slot:sub(5)).."/Gift "..girl.." "..GIFT_MAPPING[id])
-			obj.AvailableChestCount = obj.ChestCount
-    	end
-	elseif not(string.find(slot,"unique")==nil) then
-		local obj = Tracker:FindObjectForCode("@"..girl.." Unique Gift "..(slot:sub(7)).."/Gift "..girl.." "..GIFT_MAPPING[id].." Unique Gift")
-		if obj then
-    	    --print("RESETING |".."@"..girl.." Gift "..(slot:sub(5)).."/Gift "..girl.." "..GIFT_MAPPING[id])
-			obj.AvailableChestCount = obj.ChestCount
-    	end
-	end
-end
-
 -- called right after an AP slot is connected
 function onClear(slot_data)
 	-- use bulk update to pause logic updates until we are done resetting all items/locations
@@ -143,56 +109,6 @@ function onClear(slot_data)
 		print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
 	end
 	CUR_INDEX = -1
-	-- reset locations
-	for _, mapping_entry in pairs(LOCATION_MAPPING) do
-		for _, location_table in ipairs(mapping_entry) do
-			if location_table then
-				local location_code = location_table[1]
-				if location_code then
-					if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-						print(string.format("onClear: clearing location %s", location_code))
-					end
-					if location_code:sub(1, 1) == "@" then
-						local obj = Tracker:FindObjectForCode(location_code)
-						if obj then
-							obj.AvailableChestCount = obj.ChestCount
-							if obj.Highlight then
-								obj.Highlight = Highlight.None
-							end
-						elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-							print(string.format("onClear: could not find location object for code %s", location_code))
-						end
-					elseif location_code:sub(1,1) == "#" then
-                        --do nothing since we will reset location when doing slotdata stuff
-					else
-						-- reset hosted item
-						local item_type = location_table[2]
-						resetItem(location_code, item_type)
-					end
-				elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-					print(string.format("onClear: skipping location_table with no location_code"))
-				end
-			elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-				print(string.format("onClear: skipping empty location_table"))
-			end
-		end
-	end
-	-- reset items
-	for _, mapping_entry in pairs(ITEM_MAPPING) do
-		for _, item_table in ipairs(mapping_entry) do
-			if item_table then
-				local item_code = item_table[1]
-				local item_type = item_table[2]
-				if item_code then
-					resetItem(item_code, item_type)
-				elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-					print(string.format("onClear: skipping item_table with no item_code"))
-				end
-			elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-				print(string.format("onClear: skipping empty item_table"))
-			end
-		end
-	end
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
@@ -212,6 +128,8 @@ function onClear(slot_data)
 	-- triggers callback in the Retrieved handler when result is received
 	Archipelago:Get(data_strorage_keys)
 	Tracker.BulkUpdate = false
+	--NEEDED FOR MANUAL CLIENT FUNCTIONALITY
+	COLLECTED_LOCATION_IDS = {}
 end
 
 -- called when an item gets collected
@@ -272,33 +190,7 @@ function onItem(index, item_id, item_name, player_number)
 	end
 end
 
-function getgiftlocation(giftmap)
-    local test = {}
-    for i in string.gmatch(giftmap:sub(2), "%S+") do
-       table.insert(test,i)
-    end
 
-    --  "@tiffany Gift 1/Gift tiffany Decorative Pens"
-    if Tracker:ProviderCountForCode(test[1]..' unique1') == tonumber(test[2]) then
-        return "@"..test[1].." Unique Gift 1/Gift "..test[1].." "..GIFT_MAPPING[tonumber(test[2])].." Unique Gift"
-    elseif  Tracker:ProviderCountForCode(test[1]..' unique2') == tonumber(test[2]) then
-        return "@"..test[1].." Unique Gift 2/Gift "..test[1].." "..GIFT_MAPPING[tonumber(test[2])].." Unique Gift"
-    elseif  Tracker:ProviderCountForCode(test[1]..' unique3') == tonumber(test[2]) then
-        return "@"..test[1].." Unique Gift 3/Gift "..test[1].." "..GIFT_MAPPING[tonumber(test[2])].." Unique Gift"
-    elseif  Tracker:ProviderCountForCode(test[1]..' unique4') == tonumber(test[2]) then
-        return "@"..test[1].." Unique Gift 4/Gift "..test[1].." "..GIFT_MAPPING[tonumber(test[2])].." Unique Gift"
-    elseif  Tracker:ProviderCountForCode(test[1]..' shoe1') == tonumber(test[2]) then
-        return "@"..test[1].." Shoe Gift 5/Gift "..test[1].." "..GIFT_MAPPING[tonumber(test[2])].." Gift"
-    elseif  Tracker:ProviderCountForCode(test[1]..' shoe2') == tonumber(test[2]) then
-        return "@"..test[1].." Shoe Gift 6/Gift "..test[1].." "..GIFT_MAPPING[tonumber(test[2])].." Gift"
-    elseif  Tracker:ProviderCountForCode(test[1]..' shoe3') == tonumber(test[2]) then
-        return "@"..test[1].." Shoe Gift 7/Gift "..test[1].." "..GIFT_MAPPING[tonumber(test[2])].." Gift"
-    elseif  Tracker:ProviderCountForCode(test[1]..' shoe4') == tonumber(test[2]) then
-        return "@"..test[1].." Shoe Gift 8/Gift "..test[1].." "..GIFT_MAPPING[tonumber(test[2])].." Gift"
-    
-    end
-    return "@ERROR/"..giftmap
-end
 
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
@@ -470,3 +362,168 @@ Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
 Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+
+--Manual Client Functionality
+reverse_mapping = {
+	["A0/Starting Character/"] = 131,
+	["A0/1-1/Node 1-1"] = 1,
+	["A0/1-2/Node 1-2"] = 2,
+	["A0/1-3/Node 1-3"] = 3,
+	["A0/1-4/Node 1-4"] = 4,
+	["A0/1-5/Node 1-5"] = 5,
+	["A0/1-6/Node 1-6"] = 6,
+	["A0/1-7/Node 1-7"] = 7,
+	["A0/1-8/Node 1-8"] = 8,
+	["A0/1-9/Boss 1-9"] = 9,
+	["A0/2-1/Node 2-1"] = 10,
+	["A0/2-2/Node 2-2"] = 11,
+	["A0/2-3/Node 2-3"] = 12,
+	["A0/2-4/Node 2-4"] = 13,
+	["A0/2-5/Node 2-5"] = 14,
+	["A0/2-6/Node 2-6"] = 15,
+	["A0/2-7/Boss 2-7"] = 16,
+	["A0/3-1/Node 3-1"] = 17,
+	["A0/3-2/Node 3-2"] = 18,
+	["A0/3-3/Node 3-3"] = 19,
+	["A0/3-4/Node 3-4"] = 20,
+	["A0/3-5/Node 3-5"] = 21,
+	["A0/3-6/Node 3-6"] = 22,
+	["A0/3-7/Boss 3-7"] = 23,
+	["A0/1-1/A0 Reward 1-1"] = 33,
+	["A0/1-2/A0 Reward 1-2"] = 34,
+	["A0/1-8/A0 Reward 1-8"] = 35,
+	["A0/1-9/A0 Boss 1-9"] = 87,
+	["A0/2-6/A0 Reward 2-6"] = 36,
+	["A0/2-7/A0 Boss 2-7"] = 88,
+	["A0/3-6/A0 Reward 3-6"] = 37,
+	["A0/3-7/A0 Boss 3-7"] = 89,
+	["A0/3-7/A0 Completion"] = 24,
+	["A1/A1 1-1/A1 Reward 1-1"] = 38,
+	["A1/A1 1-2/A1 Reward 1-2"] = 39,
+	["A1/A1 1-8/A1 Reward 1-8"] = 40,
+	["A1/A1 1-9/A1 Boss 1-9"] = 90,
+	["A1/A1 2-6/A1 Reward 2-6"] = 41,
+	["A1/A1 2-7/A1 Boss 2-7"] = 91,
+	["A1/A1 3-6/A1 Reward 3-6"] = 42,
+	["A1/A1 3-7/A1 Boss 3-7"] = 92,
+	["A1/A1 3-7/A1 Completion"] = 25,
+	["A2/A2 1-1/A2 Reward 1-1"] = 43,
+	["A2/A2 1-2/A2 Reward 1-2"] = 44,
+	["A2/Encounter 1-7/Left"] = 78,
+	["A2/Encounter 1-7/Right"] = 79,
+	["A2/A2 1-8/A2 Reward 1-8"] = 45,
+	["A2/A2 1-9/A2 Boss 1-9"] = 93,
+	["A2/A2 2-6/A2 Reward 2-6"] = 46,
+	["A2/Encounter 2-5/Left"] = 80,
+	["A2/Encounter 2-5/Right"] = 81,
+	["A2/A2 2-7/A2 Boss 2-7"] = 94,
+	["A2/Encounter 3-5/Left"] = 82,
+	["A2/Encounter 3-5/Right"] = 83,
+	["A2/A2 3-6/A2 Reward 3-6"] = 47,
+	["A2/A2 3-7/A2 Boss 3-7"] = 95,
+	["A2/A2 3-7/A2 Completion"] = 26,
+	["A3/A3 1-1/A3 Reward 1-1"] = 48,
+	["A3/A3 1-2/A3 Reward 1-2"] = 49,
+	["A3/A3 1-8/A3 Reward 1-8"] = 50,
+	["A3/A3 1-9/A3 Boss 1-9"] = 96,
+	["A3/A3 2-6/A3 Reward 2-6"] = 51,
+	["A3/A3 2-7/A3 Boss 2-7"] = 97,
+	["A3/A3 3-6/A3 Reward 3-6"] = 52,
+	["A3/A3 3-7/A3 Boss 3-7"] = 98,
+	["A3/A3 3-7/A3 Completion"] = 27,
+	["A3/Encounter Difficulty/Difficulty 2"] = 84,
+	["A3/Encounter Difficulty/Difficulty 3"] = 85,
+	["A3/Encounter Difficulty/Difficulty 4"] = 86,
+	["A4/A4 1-1/A4 Reward 1-1"] = 53,
+	["A4/A4 1-2/A4 Reward 1-2"] = 54,
+	["A4/A4 1-8/A4 Reward 1-8"] = 55,
+	["A4/A4 1-9/A4 Boss 1-9"] = 99,
+	["A4/A4 2-6/A4 Reward 2-6"] = 56,
+	["A4/A4 2-7/A4 Boss 2-7"] = 100,
+	["A4/A4 3-6/A4 Reward 3-6"] = 57,
+	["A4/A4 3-7/A4 Boss 3-7"] = 101,
+	["A4/A4 3-7/A4 Completion"] = 28,
+	["A5/A5 1-1/A5 Reward 1-1"] = 58,
+	["A5/A5 1-2/A5 Reward 1-2"] = 59,
+	["A5/A5 1-8/A5 Reward 1-8"] = 60,
+	["A5/A5 1-9/A5 Boss 1-9"] = 102,
+	["A5/A5 2-6/A5 Reward 2-6"] = 61,
+	["A5/A5 2-7/A5 Boss 2-7"] = 103,
+	["A5/A5 3-6/A5 Reward 3-6"] = 62,
+	["A5/A5 3-7/A5 Boss 3-7"] = 104,
+	["A5/A5 3-7/A5 Completion"] = 29,
+	["A6/A6 1-1/A6 Reward 1-1"] = 63,
+	["A6/A6 1-2/A6 Reward 1-2"] = 64,
+	["A6/A6 1-8/A6 Reward 1-8"] = 65,
+	["A6/A6 1-9/A6 Boss 1-9"] = 105,
+	["A6/A6 2-6/A6 Reward 2-6"] = 66,
+	["A6/A6 2-7/A6 Boss 2-7"] = 106,
+	["A6/A6 3-6/A6 Reward 3-6"] = 67,
+	["A6/A6 3-7/A6 Boss 3-7"] = 107,
+	["A6/A6 3-7/A6 Completion"] = 30,
+	["A7/A7 1-1/A7 Reward 1-1"] = 68,
+	["A7/A7 1-2/A7 Reward 1-2"] = 69,
+	["A7/A7 1-8/A7 Reward 1-8"] = 70,
+	["A7/A7 1-9/A7 Boss 1-9"] = 108,
+	["A7/A7 2-6/A7 Reward 2-6"] = 71,
+	["A7/A7 2-7/A7 Boss 2-7"] = 109,
+	["A7/A7 3-6/A7 Reward 3-6"] = 72,
+	["A7/A7 3-7/A7 Boss 3-7"] = 110,
+	["A7/A7 3-7/A7 Completion"] = 31,
+	["A8/A8 1-1/A8 Reward 1-1"] = 73,
+	["A8/A8 1-2/A8 Reward 1-2"] = 74,
+	["A8/A8 1-8/A8 Reward 1-8"] = 75,
+	["A8/A8 1-9/A8 Boss 1-9"] = 111,
+	["A8/A8 2-6/A8 Reward 2-6"] = 76,
+	["A8/A8 2-7/A8 Boss 2-7"] = 112,
+	["A8/A8 3-6/A8 Reward 3-6"] = 77,
+	["A8/A8 3-7/A8 Boss 3-7"] = 113,
+	["A8/A8 3-7/A8 Completion"] = 32,
+	["Bosses/Defeat @SparxiConOfficial/"] = 130,
+	["Bosses/Defeat Abundant Ebon Deer/"] = 119,
+	["Bosses/Defeat Alloy Mechatron: King Pom-Pom/"] = 133,
+	["Bosses/Defeat Argenti/"] = 121,
+	["Bosses/Defeat Cocolia/"] = 114,
+	["Bosses/Defeat First Genius, Entelechy, Zandar/"] = 127,
+	["Bosses/Defeat Flame Reaver/"] = 125,
+	["Bosses/Defeat Gepard/"] = 115,
+	["Bosses/Defeat Illwish Archlotus/"] = 132,
+	["Bosses/Defeat Incarnation of Strife/"] = 122,
+	["Bosses/Defeat Judge of Oblivion/"] = 128,
+	["Bosses/Defeat Pollux/"] = 124,
+	["Bosses/Stellaron Hunters/Defeat Stellaron Hunter: Sam"] = 117,
+	["Bosses/Stellaron Hunters/Defeat Stellaron Hunter: Kafka"] = 123,
+	["Bosses/Defeat Svarog/"] = 116,
+	["Bosses/Defeat Swarm Nightmare/"] = 129,
+	["Bosses/Defeat The Past, Present and Eternal Show/"] = 120,
+	["Bosses/Defeat Wonder Forest's Banacademic Office Staff/"] = 126,
+	["Bosses/Defeat Yanqing/"] = 118
+}
+
+	COLLECTED_LOCATION_IDS = {}
+
+function forceUpdate(locationSection)
+	local ap_id = reverse_mapping[locationSection.FullID]
+	local sectionID = locationSection.FullID
+
+	 if COLLECTED_LOCATION_IDS[ap_id] ~= nil then
+        -- Location has been collected already, don't sent it again.
+        return
+    end
+	-- AP location cleared the check
+	if ap_id ~= nil then
+        local res = Archipelago:LocationChecks({ap_id})
+        if res then
+            print("Sent " .. tostring(ap_id) .. " for " .. tostring(sectionID))
+            COLLECTED_LOCATION_IDS[ap_id] = true
+        else
+            print("Error sending " .. tostring(ap_id) .. " for " .. tostring(sectionID))
+        end
+    else
+        print(tostring(sectionID) .. " is not an AP location")
+    end
+end
+
+
+ScriptHost:AddOnLocationSectionChangedHandler("location/section_change_handler", forceUpdate)
+--Manual Client Functionality END
