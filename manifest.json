@@ -3,7 +3,7 @@
   // it contains basic information about your pack
   // for more info on the manifest check: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#manifest
   "name": "HSR Currency Wars PopTracker Plugin",
-  "game_name": "manual_currencywars_mayaxtgyuuki",
+  "game_name": "Manual_CurrencyWars_MayaXTGYuuki",
   "package_version": "1.0.0",
   "package_uid": "hsr_cw_ap_plugin",
   "author": "KatRoman",
