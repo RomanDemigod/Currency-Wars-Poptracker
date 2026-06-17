@@ -100,7 +100,7 @@ ITEM_MAPPING = {
 	[68] = {{"RollerSkates", "toggle"}},
 	[69] = {{"BlueGem", "toggle"}},
 	[70] = {{"RedGem", "toggle"}},
-	[71] = {{"Emblems", "toggle"}},
+	[71] = {{"Emblems", "toggle"},},
 
 	--Advanced Items
 	[72] = {{"AdaptiveExoskeleton", "toggle"}},
@@ -146,7 +146,9 @@ ITEM_MAPPING = {
 	[112] = {{"PerfectProjector", "toggle"}},
 	[113] = {{"GoodFortuneToken", "toggle"}},
 	[114] = {{"SpecialPrivilegeCard", "toggle"}},
-	[71] = {{"Emblems", "toggle"}},
 	[129] = {{"Junk", "toggle"}}
+	
+--All Bonds. Add to Emblem if you want it considered for bond tracking:
+	--{"ShieldCount", "progressive"},{"QuantumCount", "progressive"},{"HealCount", "progressive"},{"BelobogCount", "progressive"},{"WolfHuntCount", "progressive"},{"ScholarCount", "progressive"},{"DoTCount", "progressive"},{"RangerCount", "progressive"},{"ElioCount", "progressive"},{"BloodflameCount", "progressive"},{"PenaconyCount", "progressive"},{"BreakCount", "progressive"},{"IPCCount", "progressive"},{"AoECount", "progressive"},{"DayCount", "progressive"},{"EnergyCount", "progressive"},{"ExpressCount", "progressive"},{"NightCount", "progressive"},{"FollowCount", "progressive"},{"DebuffCount", "progressive"},{"VoyagerCount", "progressive"},{"SkillCount", "progressive"},{"XianzhouCount", "progressive"},{"ElationCount", "progressive"}
 
 }

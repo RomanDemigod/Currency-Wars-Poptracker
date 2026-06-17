@@ -1,0 +1,140 @@
+{
+    "equipment_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0, 0",
+						"margin": "450,15, 0, 10",
+                        "h_alignment": "left",
+						"item_height": 40,
+						"item_width": 40,
+                        "rows": [
+								[
+									"SmeltingFurnace",
+									"RollerSkates",
+									"FoldingKnife",
+									"PeacePistol",
+									"LuckyStar",
+									"FlowerOfLife",
+									"BatchProducedArmor",
+									"AetherDrill",
+									"PhotonCell"
+								],
+								[
+									"RedGem",
+									"BlueGem",
+									"WealthGem",
+									"Emblems",
+									"DisassemblyWrench",
+									"SpecialPrivilegeCard",
+									"GoodFortuneToken",
+									"StaffProjector",
+									"PerfectProjector"
+								],
+								[
+									"Anti-GravBoots",
+									"FirestormSurge",
+									"ElectromagneticCatapult",
+									"ChasingStars",
+									"BlossomToTheStride",
+									"MeteorWings",
+									"LightSpeedPropeller",
+									"LightningBoots",
+									"StarcleaverBlade"
+								],
+								[
+									"WeaponMaster",
+									"High-frequencyChainsaw",
+									"Bloodthirsty",
+									"ConfidenceInjector",
+									"MomentumEdge",
+									"CodexOfCombat",
+									"OrbitalRailgun",
+									"StarfallSniper",
+									"BastionProjector"
+								],
+								[
+									"AdaptiveExoskeleton",
+									"DecapitationOperation",
+									"ChargingSail",
+									"WhateverDice",
+									"FistOfFury",
+									"ChassisOfRetribution",
+									"VictoryBanner",
+									"PunGenerator",
+									"RingOfLife"
+								],
+								[
+									"AnalgesiaChip",
+									"MolecularSolvent",
+									"CaloricOverload",
+									"SturdyPlate",
+									"FlashGrenade",
+									"PhotonShield",
+									"WormholeDrill",
+									"PlanetaryDrill",
+									"PerpetualEngine"
+								]
+							]
+						},
+						{
+                        "type": "itemgrid",
+						"margin": "385,5,0,0",
+                        "item_margin": "0,0,0,0",
+                        "h_alignment": "left",
+						"item_height": 40,
+						"item_width": 40,
+                        "rows": [
+                            [
+									"XianzhouCount",
+									"WolfHuntCount",
+									"NightCount",
+									"DayCount",
+									"BelobogCount",
+									"ExpressCount",
+									"ScholarCount",
+									"VoyagerCount",
+									"PenaconyCount",
+									"ElioCount",
+									"RangerCount",
+									"IPCCount"
+							]
+								]							
+						},
+						{
+                        "type": "itemgrid",
+						"margin": "405,-20,0,10",
+                        "item_margin": "0,0,0,0",
+                        "h_alignment": "left",
+						"item_height": 40,
+						"item_width": 40,
+                        "rows": [
+                            [
+									"BreakCount",
+									"FollowCount",
+									"EnergyCount",
+									"AoECount",
+									"BloodflameCount",
+									"ElationCount",
+									"DebuffCount",
+									"SkillCount",
+									"DoTCount",
+									"QuantumCount",
+									"HealCount",
+									"ShieldCount"
+							]
+								]							
+						}
+					]
+				}
+			]
+	}
+}

@@ -5,6 +5,7 @@ ENABLE_DEBUG_LOG = true
 local variant = Tracker.ActiveVariantUID
 -- check variant info
 IS_ITEMS_ONLY = variant:find("itemsonly")
+IS_1280_ONLY = variant:find("1280")
 
 print("-- Example Tracker --")
 print("Loaded variant: ", variant)
@@ -44,12 +45,14 @@ end
 
 -- Layout
 --Tracker:AddLayouts("layouts/items.json")
-Tracker:AddLayouts("layouts/access cards.json")
-Tracker:AddLayouts("layouts/equipment.json")
+--Tracker:AddLayouts("layouts/access cards.json")
+--Tracker:AddLayouts("layouts/equipment.json")
 Tracker:AddLayouts("layouts/characters.json")
+--Tracker:AddLayouts("layouts/bonds.json")
+Tracker:AddLayouts("layouts/ataglance.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
-Tracker:AddLayouts("layouts/tabs.json")
+--Tracker:AddLayouts("layouts/tabs.json")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

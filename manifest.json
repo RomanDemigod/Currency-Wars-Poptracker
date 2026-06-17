@@ -11,7 +11,14 @@
   "target_poptracker_version": "0.28.0",
   "variants": {
     "standard": {
-      "display_name": "Map Tracker",
+      "display_name": "Map Tracker (1920*1080)",
+      "flags": [
+        "ap",
+		"apmanual"
+      ]
+    },
+    "var_1280": {
+      "display_name": "Map Tracker (1280*720)",
       "flags": [
         "ap",
 		"apmanual"

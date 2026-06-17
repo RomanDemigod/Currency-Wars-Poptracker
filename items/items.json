@@ -781,7 +781,7 @@
     "type": "toggle",
     "img": "images/items/Emblems.png",
     "codes": "Emblems, Basic_Item"
-  }
+  },
   {
     "name": "Xianzhou",
     "type": "progressive",
@@ -840,37 +840,37 @@
 	{
 		"img": "images/bonds/Wolf Hunt0.png",
 		"inherit_codes": false,
-		"codes": "Night0"
+		"codes": "WolfHunt0"
 	},
 	{
 		"img": "images/bonds/Wolf Hunt0.png",
 		"inherit_codes": false,
-		"codes": "Night1"
+		"codes": "WolfHunt1"
 	},
 	{
 		"img": "images/bonds/Wolf Hunt0.png",
 		"inherit_codes": false,
-		"codes": "Night2"
+		"codes": "WolfHunt2"
 	},
 	{
 		"img": "images/bonds/Wolf Hunt1.png",
 		"inherit_codes": false,
-		"codes": "Night3"
+		"codes": "WolfHunt3"
 	},
 	{
 		"img": "images/bonds/Wolf Hunt1.png",
 		"inherit_codes": false,
-		"codes": "Night4"
+		"codes": "WolfHunt4"
 	},
 	{
 		"img": "images/bonds/Wolf Hunt2.png",
 		"inherit_codes": false,
-		"codes": "Night5"
+		"codes": "WolfHunt5"
 	},
 	{
 		"img": "images/bonds/Wolf Hunt3.png",
 		"inherit_codes": false,
-		"codes": "Night6"
+		"codes": "WolfHunt6"
 	}
 	],
 	"codes": "WolfHuntCount"
@@ -1203,6 +1203,26 @@
 		"img": "images/bonds/Elio0.png",
 		"inherit_codes": false,
 		"codes": "Elio0"
+	},
+ {
+		"img": "images/bonds/Elio0.png",
+		"inherit_codes": false,
+		"codes": "Elio1"
+	},
+	{
+		"img": "images/bonds/Elio1.png",
+		"inherit_codes": false,
+		"codes": "Elio2"
+	},
+	{
+		"img": "images/bonds/Elio2.png",
+		"inherit_codes": false,
+		"codes": "Elio3"
+	},
+	{
+		"img": "images/bonds/Elio3.png",
+		"inherit_codes": false,
+		"codes": "Elio4"
 	}
 	],
 	"codes": "ElioCount"
@@ -1217,6 +1237,26 @@
 		"img": "images/bonds/Ranger0.png",
 		"inherit_codes": false,
 		"codes": "Ranger0"
+	},
+	{
+		"img": "images/bonds/Ranger1.png",
+		"inherit_codes": false,
+		"codes": "Ranger1"
+	},
+	{
+		"img": "images/bonds/Ranger2.png",
+		"inherit_codes": false,
+		"codes": "Ranger2"
+	},
+	{
+		"img": "images/bonds/Ranger3.png",
+		"inherit_codes": false,
+		"codes": "Ranger3"
+	},
+	{
+		"img": "images/bonds/Ranger4.png",
+		"inherit_codes": false,
+		"codes": "Ranger4"
 	}
 	],
 	"codes": "RangerCount"
@@ -1231,6 +1271,21 @@
 		"img": "images/bonds/IPC0.png",
 		"inherit_codes": false,
 		"codes": "IPC0"
+	},
+	{
+		"img": "images/bonds/IPC0.png",
+		"inherit_codes": false,
+		"codes": "IPC1"
+	},
+	{
+		"img": "images/bonds/IPC1.png",
+		"inherit_codes": false,
+		"codes": "IPC2"
+	},
+	{
+		"img": "images/bonds/IPC3.png",
+		"inherit_codes": false,
+		"codes": "IPC3"
 	}
 	],
 	"codes": "IPCCount"
@@ -1245,6 +1300,46 @@
 		"img": "images/bonds/Break0.png",
 		"inherit_codes": false,
 		"codes": "Break0"
+	},
+	{
+		"img": "images/bonds/Break0.png",
+		"inherit_codes": false,
+		"codes": "Break1"
+	},
+	{
+		"img": "images/bonds/Break1.png",
+		"inherit_codes": false,
+		"codes": "Break2"
+	},
+	{
+		"img": "images/bonds/Break1.png",
+		"inherit_codes": false,
+		"codes": "Break3"
+	},
+	{
+		"img": "images/bonds/Break2.png",
+		"inherit_codes": false,
+		"codes": "Break4"
+	},
+	{
+		"img": "images/bonds/Break2.png",
+		"inherit_codes": false,
+		"codes": "Break5"
+	},
+	{
+		"img": "images/bonds/Break3.png",
+		"inherit_codes": false,
+		"codes": "Break6"
+	},
+	{
+		"img": "images/bonds/Break3.png",
+		"inherit_codes": false,
+		"codes": "Break7"
+	},
+	{
+		"img": "images/bonds/Break4.png",
+		"inherit_codes": false,
+		"codes": "Break8"
 	}
 	],
 	"codes": "BreakCount"
@@ -1259,6 +1354,41 @@
 		"img": "images/bonds/Follow0.png",
 		"inherit_codes": false,
 		"codes": "Follow0"
+	},
+	{
+		"img": "images/bonds/Follow0.png",
+		"inherit_codes": false,
+		"codes": "Follow1"
+	},
+	{
+		"img": "images/bonds/Follow0.png",
+		"inherit_codes": false,
+		"codes": "Follow2"
+	},
+	{
+		"img": "images/bonds/Follow1.png",
+		"inherit_codes": false,
+		"codes": "Follow3"
+	},
+	{
+		"img": "images/bonds/Follow1.png",
+		"inherit_codes": false,
+		"codes": "Follow4"
+	},
+	{
+		"img": "images/bonds/Follow2.png",
+		"inherit_codes": false,
+		"codes": "Follow5"
+	},
+	{
+		"img": "images/bonds/Follow2.png",
+		"inherit_codes": false,
+		"codes": "Follow6"
+	},
+	{
+		"img": "images/bonds/Follow3.png",
+		"inherit_codes": false,
+		"codes": "Follow7"
 	}
 	],
 	"codes": "FollowCount"
@@ -1273,6 +1403,41 @@
 		"img": "images/bonds/Energy0.png",
 		"inherit_codes": false,
 		"codes": "Energy0"
+	},
+	{
+		"img": "images/bonds/Energy0.png",
+		"inherit_codes": false,
+		"codes": "Energy1"
+	},
+	{
+		"img": "images/bonds/Energy0.png",
+		"inherit_codes": false,
+		"codes": "Energy2"
+	},
+	{
+		"img": "images/bonds/Energy1.png",
+		"inherit_codes": false,
+		"codes": "Energy3"
+	},
+	{
+		"img": "images/bonds/Energy1.png",
+		"inherit_codes": false,
+		"codes": "Energy4"
+	},
+	{
+		"img": "images/bonds/Energy2.png",
+		"inherit_codes": false,
+		"codes": "Energy5"
+	},
+	{
+		"img": "images/bonds/Energy2.png",
+		"inherit_codes": false,
+		"codes": "Energy6"
+	},
+	{
+		"img": "images/bonds/Energy3.png",
+		"inherit_codes": false,
+		"codes": "Energy7"
 	}
 	],
 	"codes": "EnergyCount"
@@ -1287,6 +1452,41 @@
 		"img": "images/bonds/AoE0.png",
 		"inherit_codes": false,
 		"codes": "AoE0"
+	},
+	{
+		"img": "images/bonds/AoE0.png",
+		"inherit_codes": false,
+		"codes": "AoE1"
+	},
+	{
+		"img": "images/bonds/AoE0.png",
+		"inherit_codes": false,
+		"codes": "AoE2"
+	},
+	{
+		"img": "images/bonds/AoE1.png",
+		"inherit_codes": false,
+		"codes": "AoE3"
+	},
+	{
+		"img": "images/bonds/AoE1.png",
+		"inherit_codes": false,
+		"codes": "AoE4"
+	},
+	{
+		"img": "images/bonds/AoE2.png",
+		"inherit_codes": false,
+		"codes": "AoE5"
+	},
+	{
+		"img": "images/bonds/AoE2.png",
+		"inherit_codes": false,
+		"codes": "AoE6"
+	},
+	{
+		"img": "images/bonds/AoE3.png",
+		"inherit_codes": false,
+		"codes": "AoE7"
 	}
 	],
 	"codes": "AoECount"
@@ -1301,6 +1501,36 @@
 		"img": "images/bonds/Bloodflame0.png",
 		"inherit_codes": false,
 		"codes": "Bloodflame0"
+	},
+	{
+		"img": "images/bonds/Bloodflame0.png",
+		"inherit_codes": false,
+		"codes": "Bloodflame1"
+	},
+	{
+		"img": "images/bonds/Bloodflame1.png",
+		"inherit_codes": false,
+		"codes": "Bloodflame2"
+	},
+	{
+		"img": "images/bonds/Bloodflame1.png",
+		"inherit_codes": false,
+		"codes": "Bloodflame3"
+	},
+	{
+		"img": "images/bonds/Bloodflame2.png",
+		"inherit_codes": false,
+		"codes": "Bloodflame4"
+	},
+	{
+		"img": "images/bonds/Bloodflame2.png",
+		"inherit_codes": false,
+		"codes": "Bloodflame5"
+	},
+	{
+		"img": "images/bonds/Bloodflame3.png",
+		"inherit_codes": false,
+		"codes": "Bloodflame6"
 	}
 	],
 	"codes": "BloodflameCount"
@@ -1315,7 +1545,32 @@
 		"img": "images/bonds/Elation0.png",
 		"inherit_codes": false,
 		"codes": "Elation0"
-	}
+	},
+	{
+		"img": "images/bonds/Elation0.png",
+		"inherit_codes": false,
+		"codes": "Elation1"
+	},
+	{
+		"img": "images/bonds/Elation0.png",
+		"inherit_codes": false,
+		"codes": "Elation2"
+	},
+	{
+		"img": "images/bonds/Elation1.png",
+		"inherit_codes": false,
+		"codes": "Elation3"
+	},
+	{
+		"img": "images/bonds/Elation2.png",
+		"inherit_codes": false,
+		"codes": "Elation4"
+	},
+    {
+        "img": "images/bonds/Elation3.png",
+        "inherit_codes": false,
+        "codes": "Elation5"
+    }
 	],
 	"codes": "ElationCount"
   },
@@ -1329,6 +1584,36 @@
 		"img": "images/bonds/Debuff0.png",
 		"inherit_codes": false,
 		"codes": "Debuff0"
+	},
+	{
+		"img": "images/bonds/Debuff0.png",
+		"inherit_codes": false,
+		"codes": "Debuff1"
+	},
+	{
+		"img": "images/bonds/Debuff1.png",
+		"inherit_codes": false,
+		"codes": "Debuff2"
+	},
+	{
+		"img": "images/bonds/Debuff1.png",
+		"inherit_codes": false,
+		"codes": "Debuff3"
+	},
+	{
+		"img": "images/bonds/Debuff2.png",
+		"inherit_codes": false,
+		"codes": "Debuff4"
+	},
+	{
+		"img": "images/bonds/Debuff2.png",
+		"inherit_codes": false,
+		"codes": "Debuff5"
+	},
+	{
+		"img": "images/bonds/Debuff3.png",
+		"inherit_codes": false,
+		"codes": "Debuff6"
 	}
 	],
 	"codes": "DebuffCount"
@@ -1343,6 +1628,36 @@
 		"img": "images/bonds/Skill0.png",
 		"inherit_codes": false,
 		"codes": "Skill0"
+	},
+	{
+		"img": "images/bonds/Skill0.png",
+		"inherit_codes": false,
+		"codes": "Skill1"
+	},
+	{
+		"img": "images/bonds/Skill1.png",
+		"inherit_codes": false,
+		"codes": "Skill2"
+	},
+	{
+		"img": "images/bonds/Skill1.png",
+		"inherit_codes": false,
+		"codes": "Skill3"
+	},
+	{
+		"img": "images/bonds/Skill2.png",
+		"inherit_codes": false,
+		"codes": "Skill4"
+	},
+	{
+		"img": "images/bonds/Skill2.png",
+		"inherit_codes": false,
+		"codes": "Skill5"
+	},
+	{
+		"img": "images/bonds/Skill3.png",
+		"inherit_codes": false,
+		"codes": "Skill6"
 	}
 	],
 	"codes": "SkillCount"
@@ -1357,6 +1672,26 @@
 		"img": "images/bonds/DoT0.png",
 		"inherit_codes": false,
 		"codes": "DoT0"
+	},
+	{
+		"img": "images/bonds/DoT0.png",
+		"inherit_codes": false,
+		"codes": "DoT1"
+	},
+	{
+		"img": "images/bonds/DoT1.png",
+		"inherit_codes": false,
+		"codes": "DoT2"
+	},
+	{
+		"img": "images/bonds/DoT1.png",
+		"inherit_codes": false,
+		"codes": "DoT3"
+	},
+	{
+		"img": "images/bonds/DoT2.png",
+		"inherit_codes": false,
+		"codes": "DoT4"
 	}
 	],
 	"codes": "DoTCount"
@@ -1371,6 +1706,31 @@
 		"img": "images/bonds/Quantum0.png",
 		"inherit_codes": false,
 		"codes": "Quantum0"
+	},
+	{
+		"img": "images/bonds/Quantum0.png",
+		"inherit_codes": false,
+		"codes": "Quantum1"
+	},
+	{
+		"img": "images/bonds/Quantum1.png",
+		"inherit_codes": false,
+		"codes": "Quantum2"
+	},
+	{
+		"img": "images/bonds/Quantum2.png",
+		"inherit_codes": false,
+		"codes": "Quantum3"
+	},
+	{
+		"img": "images/bonds/Quantum3.png",
+		"inherit_codes": false,
+		"codes": "Quantum4"
+	},
+    {
+		"img": "images/bonds/Quantum4.png",
+		"inherit_codes": false,
+		"codes": "Quantum5"
 	}
 	],
 	"codes": "QuantumCount"
@@ -1385,6 +1745,36 @@
 		"img": "images/bonds/Heal0.png",
 		"inherit_codes": false,
 		"codes": "Heal0"
+	},
+	{
+		"img": "images/bonds/Heal0.png",
+		"inherit_codes": false,
+		"codes": "Heal1"
+	},
+	{
+		"img": "images/bonds/Heal1.png",
+		"inherit_codes": false,
+		"codes": "Heal2"
+	},
+	{
+		"img": "images/bonds/Heal1.png",
+		"inherit_codes": false,
+		"codes": "Heal3"
+	},
+	{
+		"img": "images/bonds/Heal2.png",
+		"inherit_codes": false,
+		"codes": "Heal4"
+	},
+	{
+		"img": "images/bonds/Heal2.png",
+		"inherit_codes": false,
+		"codes": "Heal5"
+	},
+	{
+		"img": "images/bonds/Heal3.png",
+		"inherit_codes": false,
+		"codes": "Heal6"
 	}
 	],
 	"codes": "HealCount"
@@ -1399,6 +1789,26 @@
 		"img": "images/bonds/Shield0.png",
 		"inherit_codes": false,
 		"codes": "Shield0"
+	},
+	{
+		"img": "images/bonds/Shield0.png",
+		"inherit_codes": false,
+		"codes": "Shield1"
+	},
+	{
+		"img": "images/bonds/Shield1.png",
+		"inherit_codes": false,
+		"codes": "Shield2"
+	},
+	{
+		"img": "images/bonds/Shield1.png",
+		"inherit_codes": false,
+		"codes": "Shield3"
+	},
+	{
+		"img": "images/bonds/Shield2.png",
+		"inherit_codes": false,
+		"codes": "Shield4"
 	}
 	],
 	"codes": "ShieldCount"

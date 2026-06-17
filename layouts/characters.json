@@ -11,6 +11,7 @@
                 "content": [
                     {
                         "type": "itemgrid",
+						"margin": "316,0",
                         "item_margin": "2, 2",
                         "h_alignment": "center",
 						"v_alignment": "center",
@@ -37,6 +38,7 @@
                     },
 					{
                         "type": "itemgrid",
+						"margin": "316,0",
                         "item_margin": "2, 2",
                         "h_alignment": "center",
 						"item_height": 85,
@@ -62,6 +64,7 @@
                     },
 					{
                         "type": "itemgrid",
+						"margin": "316,0",
                         "item_margin": "2, 2",
                         "h_alignment": "center",
 						"item_height": 85,
@@ -87,6 +90,7 @@
                     },
 					{
                         "type": "itemgrid",
+						"margin": "316,0",
                         "item_margin": "2, 2",
                         "h_alignment": "center",
 						"item_height": 85,
@@ -112,6 +116,7 @@
                     },
 					{
                         "type": "itemgrid",
+						"margin": "446,0",
                         "item_margin": "2, 2",
                         "h_alignment": "center",
 						"item_height": 85,
