@@ -34,6 +34,12 @@
 									"FollowCount",
 									"EnergyCount",
 									"AoECount"
+							],
+							[
+								"",
+								"GrailCount",
+								"",
+								"Progressive_Access_Card"
 							]
 								]							
 						},
@@ -74,7 +80,6 @@
 						"item_width": 50,
                         "rows": [
 								[
-									"SmeltingFurnace",
 									"RollerSkates",
 									"FoldingKnife",
 									"PeacePistol",
@@ -92,52 +97,55 @@
 									"DisassemblyWrench",
 									"SpecialPrivilegeCard",
 									"GoodFortuneToken",
-									"StaffProjector",
-									"PerfectProjector"
+									"StaffProjector"
 								],
 								[
+									"PerfectProjector",
 									"Anti-GravBoots",
 									"FirestormSurge",
 									"ElectromagneticCatapult",
 									"ChasingStars",
 									"BlossomToTheStride",
 									"MeteorWings",
-									"LightSpeedPropeller",
-									"LightningBoots",
-									"StarcleaverBlade"
+									"LightSpeedPropeller"
 								],
 								[
+									"LightningBoots",
+									"StarcleaverBlade",
 									"WeaponMaster",
 									"High-frequencyChainsaw",
 									"Bloodthirsty",
 									"ConfidenceInjector",
 									"MomentumEdge",
-									"CodexOfCombat",
-									"OrbitalRailgun",
-									"StarfallSniper",
-									"BastionProjector"
+									"CodexOfCombat"
 								],
 								[
+									"OrbitalRailgun",
+									"StarfallSniper",
+									"BastionProjector",
 									"AdaptiveExoskeleton",
 									"DecapitationOperation",
 									"ChargingSail",
 									"WhateverDice",
-									"FistOfFury",
+									"FistOfFury"
+								],
+								[
 									"ChassisOfRetribution",
 									"VictoryBanner",
 									"PunGenerator",
-									"RingOfLife"
-								],
-								[
+									"RingOfLife",
 									"AnalgesiaChip",
 									"MolecularSolvent",
 									"CaloricOverload",
-									"SturdyPlate",
+									"SturdyPlate"
+								],
+								[
+									"PerpetualEngine",
+									"SmeltingFurnace",
 									"FlashGrenade",
 									"PhotonShield",
 									"WormholeDrill",
-									"PlanetaryDrill",
-									"PerpetualEngine"
+									"PlanetaryDrill"
 								]
 							]
 						}
@@ -151,32 +159,7 @@
             {
                 "type": "array",
                 "orientation": "vertical",
-                "margin": "5,0,5,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "2, 2",
-                        "h_alignment": "center",
-						"v_alignment": "center",
-						"item_height": 50,
-						"item_width": 50,
-                        "rows": [
-                            ["A1_Access"],
-							["A2_Access"],
-							["A3_Access"],
-							["A4_Access"],
-							["A5_Access"],
-							["A6_Access"],
-							["A7_Access"],
-							["A8_Access"]
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "array",
-                "orientation": "vertical",
-                "margin": "0,0",
+                "margin": "10,0",
                 "content": [
                     {
                         "type": "itemgrid",
@@ -187,20 +170,20 @@
 						"item_width": 74,
                         "rows": [
                             [
-                                "Welt",
-								"Archer",
-								"Topaz",
-								"JingYuan",
-								"Yunli",
+                                "Archer",
 								"BlackSwan",
-								"Firefly",
-								"Cyrene",
 								"Bronya",
-								"SilverWolf",
-								"Gepard",							
-                                "Luocha",
+								"Cyrene",
+								"Firefly",
+								"JingYuan",
+								"Topaz",
+								"Welt",
+								"Yunli",
+                                "Boothill",
+                                "Castorice",
+								"Evernight",
                                 "FuXuan",
-                                "Yanqing"
+								"Gepard"
                             ]
                         ]
                     },
@@ -212,20 +195,20 @@
 						"item_width": 74,
                         "rows": [
                             [
-                                "Robin",
-                                "Boothill",
                                 "TheHerta",
-                                "Castorice",
-                                "Hysilens",
-								"Evernight",
+                                "Hysilens",							
+                                "Luocha",
+                                "Robin",
+								"SilverWolf",
 								"Sparxie",
                                 "Trailblazer",
-                                "Himeko",
-                                "Saber",
-                                "Seele",
-                                "Natasha",
-                                "Jingliu",
+                                "Yanqing",
+                                "Acheron",
+                                "Anaxa",
+                                "Cerydra",
+                                "DrRatio",
                                 "Fugue",
+                                "Himeko"
                             ]
                         ]
                     },
@@ -237,20 +220,20 @@
 						"item_width": 74,
                         "rows": [
                             [
-                                "DrRatio",
-                                "Acheron",
-								"Sunday",
-                                "Anaxa",
+                                "Himeko Nova",
+                                "Jingliu",
+                                "Natasha",
                                 "Phainon",
-                                "Cerydra",
+                                "Saber",
+                                "Seele",
                                 "SilverWolf999",
-                                "Kafka",
-                                "Pela",
-                                "DanHengIL",
+								"Sunday",
                                 "Argenti",
-								 "RuanMei",
+                                "Ashveil",
                                 "Aventurine",
-                                "Sparkle"
+                                "DanHengIL",
+                                "DanHengPT",
+                                "Evanescia"
                             ]
                         ]
                     },
@@ -262,20 +245,20 @@
 						"item_width": 74,
                         "rows": [
                             [
-                                "Lingsha",
-                                "Tribbie",
-                                "Mydei",
+                                "Gilgamesh",
                                 "Hyacine",
-                                "DanHengPT",
-                                "Ashveil",
-                                "Evanescia",
-								"March7th",
+                                "Kafka",
+                                "Lingsha",
+                                "M Blade",
+                                "Pela",
+								"RuanMei",
+                                "Sparkle",
+                                "Tribbie",
+                                "Aglaea",
                                 "Asta",
-                                "Herta",
-                                "Sampo",
-                                "Feixiao",
-                                "Qingque",
-                                "Tingyun",
+                                "Blade",
+                                "Cipher",
+                                "Feixiao"
                             ]
                         ]
                     },
@@ -287,16 +270,20 @@
 						"item_width": 74,
                         "rows": [
                             [
-                                "Blade",
-                                "Huohuo",
-                                "Jiaoqiu",
-                                "Moze",
                                 "Gallagher",
+                                "Herta",
+                                "Huohuo",
                                 "Jade",
+                                "Jiaoqiu",
+								"March7th",
+                                "Moze",
+                                "Mydei",
+                                "Qingque",
                                 "Rappa",
+                                "Rin",
+                                "Sampo",
                                 "TheDahlia",
-                                "Aglaea",
-                                "Cipher",
+                                "Tingyun",
                                 "YaoGuang"
                             ]
                         ]

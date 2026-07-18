@@ -1,5 +1,4 @@
 [
-  
   {
     "name": "Welt",
     "type": "toggle",
@@ -59,7 +58,7 @@
     "name": "Silver Wolf",
     "type": "toggle",
     "img": "images/items/Silver Wolf.png",
-    "codes": "SilverWolf, Character, 4_Cost_Character, Support, Advisor, On_Field, Off_Field"
+    "codes": "SilverWolf, Advisor"
   },
   {
     "name": "Gepard",
@@ -138,7 +137,7 @@
     "name": "Himeko",
     "type": "toggle",
     "img": "images/items/Himeko.png",
-    "codes": "Himeko, Character, 3_Cost_Character, DPS, Off_Field"
+    "codes": "Himeko, Advisor"
   },
   {
     "name": "Saber",
@@ -207,6 +206,12 @@
     "codes": "Cerydra, Character, 3_Cost_Character, Support, On_Field, Off_Field"
   },
   {
+    "name": "Himeko • Nova",
+    "type": "toggle",
+    "img": "images/items/Himeko Nova.png",
+    "codes": "Himeko Nova, Character, 3_Cost_Character, Support, On_Field"
+  },
+  {
     "name": "Silver Wolf LV.999",
     "type": "toggle",
     "img": "images/items/Silver Wolf LV.999.png",
@@ -223,7 +228,7 @@
     "name": "Pela",
     "type": "toggle",
     "img": "images/items/Pela.png",
-    "codes": "Pela, Character, 2_Cost_Character, Support, Off_Field"
+    "codes": "Pela, Advisor"
   },
   {
     "name": "Dan Heng IL",
@@ -268,12 +273,6 @@
     "codes": "Tribbie, Character, 2_Cost_Character, Support, On_Field, Off_Field"
   },
   {
-    "name": "Mydei",
-    "type": "toggle",
-    "img": "images/items/Mydei.png",
-    "codes": "Mydei, Character, 2_Cost_Character, DPS, On_Field, Off_Field"
-  },
-  {
     "name": "Hyacine",
     "type": "toggle",
     "img": "images/items/Hyacine.png",
@@ -297,7 +296,25 @@
     "img": "images/items/Evanescia.png",
     "codes": "Evanescia, Character, 2_Cost_Character, DPS, On_Field, Off_Field"
   },
+  {
+    "name": "Gilgamesh",
+    "type": "toggle",
+    "img": "images/items/Gilgamesh.png",
+    "codes": "Gilgamesh, Character, 2_Cost_Character, DPS, On_Field, Off_Field"
+  },
+  {
+    "name": "Mortenax Blade",
+    "type": "toggle",
+    "img": "images/items/M Blade.png",
+    "codes": "M Blade, Character, 2_Cost_Character, DPS, Off_Field"
+  },
   
+  {
+    "name": "Mydei",
+    "type": "toggle",
+    "img": "images/items/Mydei.png",
+    "codes": "Mydei, Character, 1_Cost_Character, DPS, On_Field, Off_Field"
+  },
   {
     "name": "March 7th",
     "type": "toggle",
@@ -320,7 +337,7 @@
     "name": "Sampo",
     "type": "toggle",
     "img": "images/items/Sampo.png",
-    "codes": "Sampo, Character, 1_Cost_Character, On_Field, Off_Field"
+    "codes": "Sampo, Advisor"
   },
   {
     "name": "Feixiao",
@@ -332,19 +349,19 @@
     "name": "Qingque",
     "type": "toggle",
     "img": "images/items/Qingque.png",
-    "codes": "Qingque, Character, 1_Cost_Character, DPS, Advisor, On_Field"
+    "codes": "Qingque, Advisor"
   },
   {
     "name": "Tingyun",
     "type": "toggle",
     "img": "images/items/Tingyun.png",
-    "codes": "Tingyun, Character, 1_Cost_Character, Support, Advisor, Off_Field"
+    "codes": "Tingyun, Advisor"
   },
   {
     "name": "Blade",
     "type": "toggle",
     "img": "images/items/Blade.png",
-    "codes": "Blade, Character, 1_Cost_Character, DPS, Off_Field"
+    "codes": "Blade, Advisor"
   },
   {
     "name": "Huohuo",
@@ -362,13 +379,13 @@
     "name": "Moze",
     "type": "toggle",
     "img": "images/items/Moze.png",
-    "codes": "Moze, Character, 1_Cost_Character, DPS, Support, Advisor, Off_Field"
+    "codes": "Moze, Advisor"
   },
   {
     "name": "Gallagher",
     "type": "toggle",
     "img": "images/items/Gallagher.png",
-    "codes": "Gallagher, Character, 1_Cost_Character, Healer, Advisor, On_Field, Off_Field"
+    "codes": "Gallagher, Advisor"
   },
   {
     "name": "Jade",
@@ -406,54 +423,60 @@
     "img": "images/items/Yao Guang.png",
     "codes": "YaoGuang, Character, 1_Cost_Character"
   },
-  
   {
-    "name": "A1 Access",
+    "name": "Rin Tohsaka",
     "type": "toggle",
-    "img": "images/items/A1 Access.png",
-    "codes": "A1_Access, Access_Card"
+    "img": "images/items/Rin.png",
+    "codes": "Rin, Character, 1_Cost_Character, DPS, On_Field, Off_Field"
   },
+
+
   {
-    "name": "A2 Access",
-    "type": "toggle",
-    "img": "images/items/A2 Access.png",
-    "codes": "A2_Access, Access_Card"
-  },
-  {
-    "name": "A3 Access",
-    "type": "toggle",
-    "img": "images/items/A3 Access.png",
-    "codes": "A3_Access, Access_Card"
-  },
-  {
-    "name": "A4 Access",
-    "type": "toggle",
-    "img": "images/items/A4 Access.png",
-    "codes": "A4_Access, Access_Card"
-  },
-  {
-    "name": "A5 Access",
-    "type": "toggle",
-    "img": "images/items/A5 Access.png",
-    "codes": "A5_Access, Access_Card"
-  },
-  {
-    "name": "A6 Access",
-    "type": "toggle",
-    "img": "images/items/A6 Access.png",
-    "codes": "A6_Access, Access_Card"
-  },
-  {
-    "name": "A7 Access",
-    "type": "toggle",
-    "img": "images/items/A7 Access.png",
-    "codes": "A7_Access, Access_Card"
-  },
-  {
-    "name": "A8 Access",
-    "type": "toggle",
-    "img": "images/items/A8 Access.png",
-    "codes": "A8_Access, Access_Card"
+    "name": "Progressive Access Card",
+    "type": "progressive",
+    "allow_disabled": false,
+	  "loop": false,
+
+	"stages": [
+	{
+		"img": "images/items/A0 Access.png",
+		"inherit_codes": false,
+		"codes": "A0_Access"
+	},
+	{
+		"img": "images/items/A1 Access.png",
+		"codes": "A1_Access"
+	},
+	{
+		"img": "images/items/A2 Access.png",
+		"codes": "A2_Access"
+	},
+	{
+		"img": "images/items/A3 Access.png",
+		"codes": "A3_Access"
+	},
+	{
+		"img": "images/items/A4 Access.png",
+		"codes": "A4_Access"
+	},
+	{
+		"img": "images/items/A5 Access.png",
+		"codes": "A5_Access"
+	},
+	{
+		"img": "images/items/A6 Access.png",
+		"codes": "A6_Access"
+	},
+	{
+		"img": "images/items/A7 Access.png",
+		"codes": "A7_Access"
+	},
+	{
+		"img": "images/items/A8 Access.png",
+		"codes": "A8_Access"
+	}
+	],
+	"codes": "Progressive_Access_Card"
   },
   
   
@@ -785,8 +808,9 @@
   {
     "name": "Xianzhou",
     "type": "progressive",
-	"loop": false,
-	"allow_disabled": false,
+    "allow_disabled": false,
+	  "loop": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Xianzhou0.png",
@@ -804,27 +828,27 @@
 		"codes": "xianzhou2"
 	},
 	{
-		"img": "images/bonds/Xianzhou1.png",
+		"img": "images/bonds/XianzhouB.png",
 		"inherit_codes": false,
 		"codes": "xianzhou3"
 	},
 	{
-		"img": "images/bonds/Xianzhou1.png",
+		"img": "images/bonds/XianzhouB.png",
 		"inherit_codes": false,
 		"codes": "xianzhou4"
 	},
 	{
-		"img": "images/bonds/Xianzhou2.png",
+		"img": "images/bonds/XianzhouS.png",
 		"inherit_codes": false,
 		"codes": "xianzhou5"
 	},
 	{
-		"img": "images/bonds/Xianzhou2.png",
+		"img": "images/bonds/XianzhouS.png",
 		"inherit_codes": false,
 		"codes": "xianzhou6"
 	},
 	{
-		"img": "images/bonds/Xianzhou3.png",
+		"img": "images/bonds/XianzhouG.png",
 		"inherit_codes": false,
 		"codes": "xianzhou7"
 	}
@@ -834,8 +858,9 @@
   {
     "name": "Wolf Hunt",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Wolf Hunt0.png",
@@ -853,22 +878,22 @@
 		"codes": "WolfHunt2"
 	},
 	{
-		"img": "images/bonds/Wolf Hunt1.png",
+		"img": "images/bonds/Wolf HuntB.png",
 		"inherit_codes": false,
 		"codes": "WolfHunt3"
 	},
 	{
-		"img": "images/bonds/Wolf Hunt1.png",
+		"img": "images/bonds/Wolf HuntB.png",
 		"inherit_codes": false,
 		"codes": "WolfHunt4"
 	},
 	{
-		"img": "images/bonds/Wolf Hunt2.png",
+		"img": "images/bonds/Wolf HuntS.png",
 		"inherit_codes": false,
 		"codes": "WolfHunt5"
 	},
 	{
-		"img": "images/bonds/Wolf Hunt3.png",
+		"img": "images/bonds/Wolf HuntG.png",
 		"inherit_codes": false,
 		"codes": "WolfHunt6"
 	}
@@ -878,8 +903,9 @@
   {
     "name": "Night Demigod",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Night0.png",
@@ -892,32 +918,32 @@
 		"codes": "Night1"
 	},
 	{
-		"img": "images/bonds/Night1.png",
+		"img": "images/bonds/NightB.png",
 		"inherit_codes": false,
 		"codes": "Night2"
 	},
 	{
-		"img": "images/bonds/Night1.png",
+		"img": "images/bonds/NightB.png",
 		"inherit_codes": false,
 		"codes": "Night3"
 	},
 	{
-		"img": "images/bonds/Night2.png",
+		"img": "images/bonds/NightS.png",
 		"inherit_codes": false,
 		"codes": "Night4"
 	},
 	{
-		"img": "images/bonds/Night2.png",
+		"img": "images/bonds/NightS.png",
 		"inherit_codes": false,
 		"codes": "Night5"
 	},
 	{
-		"img": "images/bonds/Night2.png",
+		"img": "images/bonds/NightS.png",
 		"inherit_codes": false,
 		"codes": "Night6"
 	},
 	{
-		"img": "images/bonds/Night3.png",
+		"img": "images/bonds/NightG.png",
 		"inherit_codes": false,
 		"codes": "Night7"
 	}
@@ -927,8 +953,9 @@
   {
     "name": "Day Demigod",
     "type": "progressive",
-	"loop": false,
-	"allow_disabled": false,
+    "allow_disabled": false,
+	  "loop": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Day0.png",
@@ -946,22 +973,22 @@
 		"codes": "Day2"
 	},
 	{
-		"img": "images/bonds/Day1.png",
+		"img": "images/bonds/DayB.png",
 		"inherit_codes": false,
 		"codes": "Day3"
 	},
 	{
-		"img": "images/bonds/Day2.png",
+		"img": "images/bonds/DayS.png",
 		"inherit_codes": false,
 		"codes": "Day4"
 	},
 	{
-		"img": "images/bonds/Day2.png",
+		"img": "images/bonds/DayS.png",
 		"inherit_codes": false,
 		"codes": "Day5"
 	},
 	{
-		"img": "images/bonds/Day3.png",
+		"img": "images/bonds/DayG.png",
 		"inherit_codes": false,
 		"codes": "Day6"
 	}
@@ -971,8 +998,9 @@
   {
     "name": "Belobog",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Belobog0.png",
@@ -985,27 +1013,27 @@
 		"codes": "Belobog1"
 	},
 	{
-		"img": "images/bonds/Belobog1.png",
+		"img": "images/bonds/BelobogB.png",
 		"inherit_codes": false,
 		"codes": "Belobog2"
 	},
 	{
-		"img": "images/bonds/Belobog1.png",
+		"img": "images/bonds/BelobogB.png",
 		"inherit_codes": false,
 		"codes": "Belobog3"
 	},
 	{
-		"img": "images/bonds/Belobog2.png",
+		"img": "images/bonds/BelobogS.png",
 		"inherit_codes": false,
 		"codes": "Belobog4"
 	},
 	{
-		"img": "images/bonds/Belobog2.png",
+		"img": "images/bonds/BelobogS.png",
 		"inherit_codes": false,
 		"codes": "Belobog5"
 	},
 	{
-		"img": "images/bonds/Belobog3.png",
+		"img": "images/bonds/BelobogG.png",
 		"inherit_codes": false,
 		"codes": "Belobog6"
 	}
@@ -1015,8 +1043,9 @@
   {
     "name": "Express Cohort",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Express0.png",
@@ -1029,27 +1058,27 @@
 		"codes": "Express1"
 	},
 	{
-		"img": "images/bonds/Express1.png",
+		"img": "images/bonds/ExpressB.png",
 		"inherit_codes": false,
 		"codes": "Express2"
 	},
 	{
-		"img": "images/bonds/Express1.png",
+		"img": "images/bonds/ExpressB.png",
 		"inherit_codes": false,
 		"codes": "Express3"
 	},
 	{
-		"img": "images/bonds/Express2.png",
+		"img": "images/bonds/ExpressS.png",
 		"inherit_codes": false,
 		"codes": "Express4"
 	},
 	{
-		"img": "images/bonds/Express2.png",
+		"img": "images/bonds/ExpressS.png",
 		"inherit_codes": false,
 		"codes": "Express5"
 	},
 	{
-		"img": "images/bonds/Express3.png",
+		"img": "images/bonds/ExpressG.png",
 		"inherit_codes": false,
 		"codes": "Express6"
 	}
@@ -1059,8 +1088,9 @@
   {
     "name": "Cosmic Scholar",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Scholar0.png",
@@ -1073,27 +1103,27 @@
 		"codes": "Scholar1"
 	},
 	{
-		"img": "images/bonds/Scholar1.png",
+		"img": "images/bonds/ScholarB.png",
 		"inherit_codes": false,
 		"codes": "Scholar2"
 	},
 	{
-		"img": "images/bonds/Scholar1.png",
+		"img": "images/bonds/ScholarB.png",
 		"inherit_codes": false,
 		"codes": "Scholar3"
 	},
 	{
-		"img": "images/bonds/Scholar2.png",
+		"img": "images/bonds/ScholarS.png",
 		"inherit_codes": false,
 		"codes": "Scholar4"
 	},
 	{
-		"img": "images/bonds/Scholar2.png",
+		"img": "images/bonds/ScholarS.png",
 		"inherit_codes": false,
 		"codes": "Scholar5"
 	},
 	{
-		"img": "images/bonds/Scholar3.png",
+		"img": "images/bonds/ScholarG.png",
 		"inherit_codes": false,
 		"codes": "Scholar6"
 	}
@@ -1103,8 +1133,9 @@
   {
     "name": "Galactic Voyager",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Voyager0.png",
@@ -1112,37 +1143,37 @@
 		"codes": "Voyager0"
 	},
 	{
-		"img": "images/bonds/Voyager1.png",
+		"img": "images/bonds/VoyagerB.png",
 		"inherit_codes": false,
 		"codes": "Voyager1"
 	},
 	{
-		"img": "images/bonds/Voyager2.png",
+		"img": "images/bonds/VoyagerB2.png",
 		"inherit_codes": false,
 		"codes": "Voyager2"
 	},
 	{
-		"img": "images/bonds/Voyager3.png",
+		"img": "images/bonds/VoyagerS.png",
 		"inherit_codes": false,
 		"codes": "Voyager3"
 	},
 	{
-		"img": "images/bonds/Voyager4.png",
+		"img": "images/bonds/VoyagerS2.png",
 		"inherit_codes": false,
 		"codes": "Voyager4"
 	},
 	{
-		"img": "images/bonds/Voyager5.png",
+		"img": "images/bonds/VoyagerG.png",
 		"inherit_codes": false,
 		"codes": "Voyager5"
 	},
 	{
-		"img": "images/bonds/Voyager6.png",
+		"img": "images/bonds/VoyagerG2.png",
 		"inherit_codes": false,
 		"codes": "Voyager6"
 	},
 	{
-		"img": "images/bonds/Voyager7.png",
+		"img": "images/bonds/VoyagerG3.png",
 		"inherit_codes": false,
 		"codes": "Voyager7"
 	}
@@ -1152,8 +1183,9 @@
   {
     "name": "The Planet of Festivities",
     "type": "progressive",
-	"loop": false,
-	"allow_disabled": false,
+    "allow_disabled": false,
+	  "loop": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Penacony0.png",
@@ -1166,27 +1198,27 @@
 		"codes": "Penacony1"
 	},
 	{
-		"img": "images/bonds/Penacony1.png",
+		"img": "images/bonds/PenaconyB.png",
 		"inherit_codes": false,
 		"codes": "Penacony2"
 	},
 	{
-		"img": "images/bonds/Penacony2.png",
+		"img": "images/bonds/PenaconyS.png",
 		"inherit_codes": false,
 		"codes": "Penacony3"
 	},
 	{
-		"img": "images/bonds/Penacony3.png",
+		"img": "images/bonds/PenaconyS2.png",
 		"inherit_codes": false,
 		"codes": "Penacony4"
 	},
 	{
-		"img": "images/bonds/Penacony4.png",
+		"img": "images/bonds/PenaconyG.png",
 		"inherit_codes": false,
 		"codes": "Penacony5"
 	},
 	{
-		"img": "images/bonds/Penacony5.png",
+		"img": "images/bonds/PenaconyG2.png",
 		"inherit_codes": false,
 		"codes": "Penacony6"
 	}
@@ -1196,10 +1228,11 @@
   {
     "name": "Stellaron Hunter",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
-	{
+ {
 		"img": "images/bonds/Elio0.png",
 		"inherit_codes": false,
 		"codes": "Elio0"
@@ -1210,17 +1243,17 @@
 		"codes": "Elio1"
 	},
 	{
-		"img": "images/bonds/Elio1.png",
+		"img": "images/bonds/ElioB.png",
 		"inherit_codes": false,
 		"codes": "Elio2"
 	},
 	{
-		"img": "images/bonds/Elio2.png",
+		"img": "images/bonds/ElioS.png",
 		"inherit_codes": false,
 		"codes": "Elio3"
 	},
 	{
-		"img": "images/bonds/Elio3.png",
+		"img": "images/bonds/ElioG.png",
 		"inherit_codes": false,
 		"codes": "Elio4"
 	}
@@ -1230,8 +1263,9 @@
   {
     "name": "Galaxy Ranger",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Ranger0.png",
@@ -1239,22 +1273,22 @@
 		"codes": "Ranger0"
 	},
 	{
-		"img": "images/bonds/Ranger1.png",
+		"img": "images/bonds/RangerB.png",
 		"inherit_codes": false,
 		"codes": "Ranger1"
 	},
 	{
-		"img": "images/bonds/Ranger2.png",
+		"img": "images/bonds/RangerB2.png",
 		"inherit_codes": false,
 		"codes": "Ranger2"
 	},
 	{
-		"img": "images/bonds/Ranger3.png",
+		"img": "images/bonds/RangerG.png",
 		"inherit_codes": false,
 		"codes": "Ranger3"
 	},
 	{
-		"img": "images/bonds/Ranger4.png",
+		"img": "images/bonds/RangerG2.png",
 		"inherit_codes": false,
 		"codes": "Ranger4"
 	}
@@ -1264,8 +1298,9 @@
   {
     "name": "IPC",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/IPC0.png",
@@ -1278,12 +1313,12 @@
 		"codes": "IPC1"
 	},
 	{
-		"img": "images/bonds/IPC1.png",
+		"img": "images/bonds/IPCB.png",
 		"inherit_codes": false,
 		"codes": "IPC2"
 	},
 	{
-		"img": "images/bonds/IPC3.png",
+		"img": "images/bonds/IPCG.png",
 		"inherit_codes": false,
 		"codes": "IPC3"
 	}
@@ -1293,8 +1328,9 @@
   {
     "name": "Break",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Break0.png",
@@ -1307,37 +1343,37 @@
 		"codes": "Break1"
 	},
 	{
-		"img": "images/bonds/Break1.png",
+		"img": "images/bonds/BreakB.png",
 		"inherit_codes": false,
 		"codes": "Break2"
 	},
 	{
-		"img": "images/bonds/Break1.png",
+		"img": "images/bonds/BreakB.png",
 		"inherit_codes": false,
 		"codes": "Break3"
 	},
 	{
-		"img": "images/bonds/Break2.png",
+		"img": "images/bonds/BreakS.png",
 		"inherit_codes": false,
 		"codes": "Break4"
 	},
 	{
-		"img": "images/bonds/Break2.png",
+		"img": "images/bonds/BreakS.png",
 		"inherit_codes": false,
 		"codes": "Break5"
 	},
 	{
-		"img": "images/bonds/Break3.png",
+		"img": "images/bonds/BreakG.png",
 		"inherit_codes": false,
 		"codes": "Break6"
 	},
 	{
-		"img": "images/bonds/Break3.png",
+		"img": "images/bonds/BreakG.png",
 		"inherit_codes": false,
 		"codes": "Break7"
 	},
 	{
-		"img": "images/bonds/Break4.png",
+		"img": "images/bonds/BreakG2.png",
 		"inherit_codes": false,
 		"codes": "Break8"
 	}
@@ -1347,8 +1383,9 @@
   {
     "name": "Follow-Up Attack",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Follow0.png",
@@ -1366,27 +1403,27 @@
 		"codes": "Follow2"
 	},
 	{
-		"img": "images/bonds/Follow1.png",
+		"img": "images/bonds/FollowB.png",
 		"inherit_codes": false,
 		"codes": "Follow3"
 	},
 	{
-		"img": "images/bonds/Follow1.png",
+		"img": "images/bonds/FollowB.png",
 		"inherit_codes": false,
 		"codes": "Follow4"
 	},
 	{
-		"img": "images/bonds/Follow2.png",
+		"img": "images/bonds/FollowS.png",
 		"inherit_codes": false,
 		"codes": "Follow5"
 	},
 	{
-		"img": "images/bonds/Follow2.png",
+		"img": "images/bonds/FollowS.png",
 		"inherit_codes": false,
 		"codes": "Follow6"
 	},
 	{
-		"img": "images/bonds/Follow3.png",
+		"img": "images/bonds/FollowG.png",
 		"inherit_codes": false,
 		"codes": "Follow7"
 	}
@@ -1396,8 +1433,9 @@
   {
     "name": "Energy",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Energy0.png",
@@ -1415,27 +1453,27 @@
 		"codes": "Energy2"
 	},
 	{
-		"img": "images/bonds/Energy1.png",
+		"img": "images/bonds/EnergyB.png",
 		"inherit_codes": false,
 		"codes": "Energy3"
 	},
 	{
-		"img": "images/bonds/Energy1.png",
+		"img": "images/bonds/EnergyB.png",
 		"inherit_codes": false,
 		"codes": "Energy4"
 	},
 	{
-		"img": "images/bonds/Energy2.png",
+		"img": "images/bonds/EnergyS.png",
 		"inherit_codes": false,
 		"codes": "Energy5"
 	},
 	{
-		"img": "images/bonds/Energy2.png",
+		"img": "images/bonds/EnergyS.png",
 		"inherit_codes": false,
 		"codes": "Energy6"
 	},
 	{
-		"img": "images/bonds/Energy3.png",
+		"img": "images/bonds/EnergyG.png",
 		"inherit_codes": false,
 		"codes": "Energy7"
 	}
@@ -1445,8 +1483,9 @@
   {
     "name": "AoE",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/AoE0.png",
@@ -1464,27 +1503,27 @@
 		"codes": "AoE2"
 	},
 	{
-		"img": "images/bonds/AoE1.png",
+		"img": "images/bonds/AoEB.png",
 		"inherit_codes": false,
 		"codes": "AoE3"
 	},
 	{
-		"img": "images/bonds/AoE1.png",
+		"img": "images/bonds/AoEB.png",
 		"inherit_codes": false,
 		"codes": "AoE4"
 	},
 	{
-		"img": "images/bonds/AoE2.png",
+		"img": "images/bonds/AoES.png",
 		"inherit_codes": false,
 		"codes": "AoE5"
 	},
 	{
-		"img": "images/bonds/AoE2.png",
+		"img": "images/bonds/AoES.png",
 		"inherit_codes": false,
 		"codes": "AoE6"
 	},
 	{
-		"img": "images/bonds/AoE3.png",
+		"img": "images/bonds/AoEG.png",
 		"inherit_codes": false,
 		"codes": "AoE7"
 	}
@@ -1494,8 +1533,9 @@
   {
     "name": "Bloodflame",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Bloodflame0.png",
@@ -1508,27 +1548,27 @@
 		"codes": "Bloodflame1"
 	},
 	{
-		"img": "images/bonds/Bloodflame1.png",
+		"img": "images/bonds/BloodflameB.png",
 		"inherit_codes": false,
 		"codes": "Bloodflame2"
 	},
 	{
-		"img": "images/bonds/Bloodflame1.png",
+		"img": "images/bonds/BloodflameB.png",
 		"inherit_codes": false,
 		"codes": "Bloodflame3"
 	},
 	{
-		"img": "images/bonds/Bloodflame2.png",
+		"img": "images/bonds/BloodflameS.png",
 		"inherit_codes": false,
 		"codes": "Bloodflame4"
 	},
 	{
-		"img": "images/bonds/Bloodflame2.png",
+		"img": "images/bonds/BloodflameS.png",
 		"inherit_codes": false,
 		"codes": "Bloodflame5"
 	},
 	{
-		"img": "images/bonds/Bloodflame3.png",
+		"img": "images/bonds/BloodflameG.png",
 		"inherit_codes": false,
 		"codes": "Bloodflame6"
 	}
@@ -1538,8 +1578,9 @@
   {
     "name": "Elation",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Elation0.png",
@@ -1557,28 +1598,29 @@
 		"codes": "Elation2"
 	},
 	{
-		"img": "images/bonds/Elation1.png",
+		"img": "images/bonds/ElationB.png",
 		"inherit_codes": false,
 		"codes": "Elation3"
 	},
 	{
-		"img": "images/bonds/Elation2.png",
+		"img": "images/bonds/ElationS.png",
 		"inherit_codes": false,
 		"codes": "Elation4"
 	},
-    {
-        "img": "images/bonds/Elation3.png",
-        "inherit_codes": false,
-        "codes": "Elation5"
-    }
+  {
+    "img": "images/bonds/ElationG.png",
+    "inherit_codes": false,
+    "codes": "Elation5"
+  }
 	],
 	"codes": "ElationCount"
   },
   {
     "name": "Debuff",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Debuff0.png",
@@ -1591,27 +1633,27 @@
 		"codes": "Debuff1"
 	},
 	{
-		"img": "images/bonds/Debuff1.png",
+		"img": "images/bonds/DebuffB.png",
 		"inherit_codes": false,
 		"codes": "Debuff2"
 	},
 	{
-		"img": "images/bonds/Debuff1.png",
+		"img": "images/bonds/DebuffB.png",
 		"inherit_codes": false,
 		"codes": "Debuff3"
 	},
 	{
-		"img": "images/bonds/Debuff2.png",
+		"img": "images/bonds/DebuffS.png",
 		"inherit_codes": false,
 		"codes": "Debuff4"
 	},
 	{
-		"img": "images/bonds/Debuff2.png",
+		"img": "images/bonds/DebuffS.png",
 		"inherit_codes": false,
 		"codes": "Debuff5"
 	},
 	{
-		"img": "images/bonds/Debuff3.png",
+		"img": "images/bonds/DebuffG.png",
 		"inherit_codes": false,
 		"codes": "Debuff6"
 	}
@@ -1621,8 +1663,9 @@
   {
     "name": "Skill Points",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Skill0.png",
@@ -1635,27 +1678,27 @@
 		"codes": "Skill1"
 	},
 	{
-		"img": "images/bonds/Skill1.png",
+		"img": "images/bonds/SkillB.png",
 		"inherit_codes": false,
 		"codes": "Skill2"
 	},
 	{
-		"img": "images/bonds/Skill1.png",
+		"img": "images/bonds/SkillB.png",
 		"inherit_codes": false,
 		"codes": "Skill3"
 	},
 	{
-		"img": "images/bonds/Skill2.png",
+		"img": "images/bonds/SkillS.png",
 		"inherit_codes": false,
 		"codes": "Skill4"
 	},
 	{
-		"img": "images/bonds/Skill2.png",
+		"img": "images/bonds/SkillS.png",
 		"inherit_codes": false,
 		"codes": "Skill5"
 	},
 	{
-		"img": "images/bonds/Skill3.png",
+		"img": "images/bonds/SkillG.png",
 		"inherit_codes": false,
 		"codes": "Skill6"
 	}
@@ -1665,8 +1708,9 @@
   {
     "name": "DoT",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/DoT0.png",
@@ -1679,17 +1723,17 @@
 		"codes": "DoT1"
 	},
 	{
-		"img": "images/bonds/DoT1.png",
+		"img": "images/bonds/DoTB.png",
 		"inherit_codes": false,
 		"codes": "DoT2"
 	},
 	{
-		"img": "images/bonds/DoT1.png",
+		"img": "images/bonds/DoTB.png",
 		"inherit_codes": false,
 		"codes": "DoT3"
 	},
 	{
-		"img": "images/bonds/DoT2.png",
+		"img": "images/bonds/DoTS.png",
 		"inherit_codes": false,
 		"codes": "DoT4"
 	}
@@ -1699,8 +1743,9 @@
   {
     "name": "Quantum Resonance",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Quantum0.png",
@@ -1713,22 +1758,22 @@
 		"codes": "Quantum1"
 	},
 	{
-		"img": "images/bonds/Quantum1.png",
+		"img": "images/bonds/QuantumB.png",
 		"inherit_codes": false,
 		"codes": "Quantum2"
 	},
 	{
-		"img": "images/bonds/Quantum2.png",
+		"img": "images/bonds/QuantumS.png",
 		"inherit_codes": false,
 		"codes": "Quantum3"
 	},
 	{
-		"img": "images/bonds/Quantum3.png",
+		"img": "images/bonds/QuantumG.png",
 		"inherit_codes": false,
 		"codes": "Quantum4"
 	},
     {
-		"img": "images/bonds/Quantum4.png",
+		"img": "images/bonds/QuantumG2.png",
 		"inherit_codes": false,
 		"codes": "Quantum5"
 	}
@@ -1738,8 +1783,9 @@
   {
     "name": "Heal",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Heal0.png",
@@ -1752,27 +1798,27 @@
 		"codes": "Heal1"
 	},
 	{
-		"img": "images/bonds/Heal1.png",
+		"img": "images/bonds/HealB.png",
 		"inherit_codes": false,
 		"codes": "Heal2"
 	},
 	{
-		"img": "images/bonds/Heal1.png",
+		"img": "images/bonds/HealB.png",
 		"inherit_codes": false,
 		"codes": "Heal3"
 	},
 	{
-		"img": "images/bonds/Heal2.png",
+		"img": "images/bonds/HealS.png",
 		"inherit_codes": false,
 		"codes": "Heal4"
 	},
 	{
-		"img": "images/bonds/Heal2.png",
+		"img": "images/bonds/HealS.png",
 		"inherit_codes": false,
 		"codes": "Heal5"
 	},
 	{
-		"img": "images/bonds/Heal3.png",
+		"img": "images/bonds/HealG.png",
 		"inherit_codes": false,
 		"codes": "Heal6"
 	}
@@ -1782,8 +1828,9 @@
   {
     "name": "Shield",
     "type": "progressive",
+    "allow_disabled": false,
 	"loop": false,
-	"allow_disabled": false,
+
 	"stages": [
 	{
 		"img": "images/bonds/Shield0.png",
@@ -1796,22 +1843,64 @@
 		"codes": "Shield1"
 	},
 	{
-		"img": "images/bonds/Shield1.png",
+		"img": "images/bonds/ShieldB.png",
 		"inherit_codes": false,
 		"codes": "Shield2"
 	},
 	{
-		"img": "images/bonds/Shield1.png",
+		"img": "images/bonds/ShieldB.png",
 		"inherit_codes": false,
 		"codes": "Shield3"
 	},
 	{
-		"img": "images/bonds/Shield2.png",
+		"img": "images/bonds/ShieldS.png",
 		"inherit_codes": false,
 		"codes": "Shield4"
 	}
 	],
 	"codes": "ShieldCount"
+  },
+  {
+    "name": "Holy Grail of Destiny",
+    "type": "progressive",
+    "allow_disabled": false,
+	"loop": false,
+
+	"stages": [
+	{
+		"img": "images/bonds/Grail0.png",
+		"inherit_codes": false,
+		"codes": "Grail0"
+	},
+	{
+		"img": "images/bonds/Grail0.png",
+		"inherit_codes": false,
+		"codes": "Grail1"
+	},
+	{
+		"img": "images/bonds/GrailB.png",
+		"inherit_codes": false,
+		"codes": "Grail2"
+	},
+	{
+		"img": "images/bonds/GrailS.png",
+		"inherit_codes": false,
+		"codes": "Grail3"
+	},
+	{
+		"img": "images/bonds/GrailG.png",
+		"inherit_codes": false,
+		"codes": "Grail4"
+	}
+	],
+	"codes": "GrailCount"
+  },
+  
+  {
+    "name": "Placeholder Bond",
+    "type": "static",
+    "img": "images/bonds/PLACEHOLDER.png",
+    "codes": "PLACEHOLDER"
   }
   
 ]

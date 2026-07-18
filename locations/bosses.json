@@ -14,7 +14,7 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 282,
+            "x": 251,
             "y": 183
           }
         ]
@@ -31,7 +31,7 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 573,
+            "x": 503,
             "y": 183
           }
         ]
@@ -48,7 +48,7 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 863,
+            "x": 756,
             "y": 183
           }
         ]
@@ -65,7 +65,7 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 1154,
+            "x": 1008,
             "y": 183
           }
         ]
@@ -82,7 +82,7 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 1444,
+            "x": 1260,
             "y": 183
           }
         ]
@@ -99,7 +99,7 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 1735,
+            "x": 1513,
             "y": 183
           }
         ]
@@ -116,8 +116,8 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 282,
-            "y": 416
+            "x": 251,
+            "y": 414
           }
         ]
       },
@@ -133,8 +133,8 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 573,
-            "y": 416
+            "x": 503,
+            "y": 414
           }
         ]
       },
@@ -150,8 +150,8 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 863,
-            "y": 416
+            "x": 756,
+            "y": 414
           }
         ]
       },
@@ -167,8 +167,8 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 1154,
-            "y": 416
+            "x": 1008,
+            "y": 414
           }
         ]
       },
@@ -184,8 +184,8 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 1444,
-            "y": 416
+            "x": 1260,
+            "y": 414
           }
         ]
       },
@@ -201,22 +201,15 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 1735,
-            "y": 416
+            "x": 1513,
+            "y": 414
           }
         ]
       },
       {
-        "name": "Stellaron Hunters",
+        "name": "Defeat Stellaron Hunter: Sam",
         "sections": [
           {
-            "name": "Defeat Stellaron Hunter: Sam",
-            "chest_opened_img": "images/chest_images/clear/boss.png",
-            "chest_unopened_img": "images/chest_images/boss.png",
-            "item_count": 1
-          },
-		   {
-            "name": "Defeat Stellaron Hunter: Kafka",
             "chest_opened_img": "images/chest_images/clear/boss.png",
             "chest_unopened_img": "images/chest_images/boss.png",
             "item_count": 1
@@ -225,8 +218,25 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 282,
-            "y": 649
+            "x": 251,
+            "y": 643
+          }
+        ]
+      },
+      {
+        "name": "Defeat Stellaron Hunter: Kafka",
+        "sections": [
+          {
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 1764,
+            "y": 643
           }
         ]
       },
@@ -242,8 +252,8 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 573,
-            "y": 649
+            "x": 503,
+            "y": 643
           }
         ]
       },
@@ -259,8 +269,8 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 863,
-            "y": 649
+            "x": 756,
+            "y": 643
           }
         ]
       },
@@ -276,8 +286,8 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 1154,
-            "y": 649
+            "x": 1008,
+            "y": 643
           }
         ]
       },
@@ -293,8 +303,8 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 1444,
-            "y": 649
+            "x": 1260,
+            "y": 643
           }
         ]
       },
@@ -310,8 +320,25 @@
         "map_locations": [
           {
             "map": "bosses",
-            "x": 1735,
-            "y": 649
+            "x": 1513,
+            "y": 643
+          }
+        ]
+      },
+      {
+        "name": "Defeat Murata Graphia, Founding Artist",
+        "sections": [
+          {
+            "chest_opened_img": "images/chest_images/clear/boss.png",
+            "chest_unopened_img": "images/chest_images/boss.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bosses",
+            "x": 1764,
+            "y": 183
           }
         ]
       }

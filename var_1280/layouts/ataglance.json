@@ -10,9 +10,31 @@
                 "margin": "0,0",
                 "content": [
                     {
+					"type": "array",
+					"orientation": "horizontal",
+					"margin": "0,0",
+					"content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "10,100,0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "h_alignment": "center",
+						"v_alignment": "center",
+						"item_height": 70,
+						"item_width": 70,
+                        "rows": [
+                            ["Progressive_Access_Card"]
+                        ]
+                    }
+                ]
+            },
+						{
                         "type": "itemgrid",
                         "item_margin": "2, 2",
-						"margin": "60,10,0,0",
+						"margin": "15,10,0,0",
                         "h_alignment": "left",
 						"item_height": 40,
 						"item_width": 40,
@@ -84,6 +106,8 @@
 									"PerpetualEngine"
 								]
 							]
+						}
+						]
 						},
 						{
                         "type": "itemgrid",
@@ -105,7 +129,8 @@
 									"PenaconyCount",
 									"ElioCount",
 									"RangerCount",
-									"IPCCount"
+									"IPCCount",
+									"GrailCount"
 							]
 								]							
 						},
@@ -143,32 +168,7 @@
             {
                 "type": "array",
                 "orientation": "vertical",
-                "margin": "0,0,0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "2, 2",
-                        "h_alignment": "center",
-						"v_alignment": "center",
-						"item_height": 40,
-						"item_width": 40,
-                        "rows": [
-                            ["A1_Access"],
-							["A2_Access"],
-							["A3_Access"],
-							["A4_Access"],
-							["A5_Access"],
-							["A6_Access"],
-							["A7_Access"],
-							["A8_Access"]
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "array",
-                "orientation": "vertical",
-                "margin": "0,0",
+                "margin": "25,0",
                 "content": [
                     {
                         "type": "itemgrid",
@@ -179,18 +179,18 @@
 						"item_width": 52,
                         "rows": [
                             [
-                                "Welt",
-								"Archer",
-								"Topaz",
-								"JingYuan",
-								"Yunli",
+                                "Archer",
 								"BlackSwan",
-								"Firefly",
-								"Cyrene",
 								"Bronya",
-								"SilverWolf",
-								"Gepard",							
-                                "Luocha",
+								"Cyrene",
+								"Firefly",
+								"JingYuan",
+								"Topaz",
+								"Welt",
+								"Yunli",
+                                "Boothill",
+                                "Castorice",
+								"Evernight",
                                 "FuXuan"
                             ]
                         ]
@@ -203,19 +203,19 @@
 						"item_width": 52,
                         "rows": [
                             [
-                                "Yanqing",
-                                "Robin",
-                                "Boothill",
+								"Gepard",
                                 "TheHerta",
-                                "Castorice",
-                                "Hysilens",
-								"Evernight",
+                                "Hysilens",							
+                                "Luocha",
+                                "Robin",
+								"SilverWolf",
 								"Sparxie",
                                 "Trailblazer",
-                                "Himeko",
-                                "Saber",
-                                "Seele",
-                                "Natasha"
+                                "Yanqing",
+                                "Acheron",
+                                "Anaxa",
+                                "Cerydra",
+                                "DrRatio"
                             ]
                         ]
                     },
@@ -227,19 +227,19 @@
 						"item_width": 52,
                         "rows": [
                             [
-                                "Jingliu",
                                 "Fugue",
-                                "DrRatio",
-                                "Acheron",
-								"Sunday",
-                                "Anaxa",
+                                "Himeko",
+                                "Himeko Nova",
+                                "Jingliu",
+                                "Natasha",
                                 "Phainon",
-                                "Cerydra",
+                                "Saber",
+                                "Seele",
                                 "SilverWolf999",
-                                "Kafka",
-                                "Pela",
-                                "DanHengIL",
-                                "Argenti"
+								"Sunday",
+                                "Argenti",
+                                "Ashveil",
+                                "Aventurine"
                             ]
                         ]
                     },
@@ -251,55 +251,59 @@
 						"item_width": 52,
                         "rows": [
                             [
-								"RuanMei",
-                                "Aventurine",
-                                "Sparkle",
-                                "Lingsha",
-                                "Tribbie",
-                                "Mydei",
-                                "Hyacine",
+                                "DanHengIL",
                                 "DanHengPT",
-                                "Ashveil",
                                 "Evanescia",
-								"March7th",
-                                "Asta",
-                                "Herta"
-                            ]
-                        ]
-                    },
-					{
-                        "type": "itemgrid",
-                        "item_margin": "1, 0",
-                        "h_alignment": "center",
-						"item_height": 52,
-						"item_width": 52,
-                        "rows": [
-                            [
-                                "Sampo",
-                                "Feixiao",
-                                "Qingque",
-                                "Tingyun",
-                                "Blade",
-                                "Huohuo",
-                                "Jiaoqiu",
-                                "Moze",
-                                "Gallagher",
-                                "Jade",
-                                "Rappa",
-                                "TheDahlia",
+                                "Gilgamesh",
+                                "Hyacine",
+                                "Kafka",
+                                "Lingsha",
+                                "M Blade",
+                                "Pela",
+								"RuanMei",
+                                "Sparkle",
+                                "Tribbie",
                                 "Aglaea"
                             ]
                         ]
                     },
 					{
                         "type": "itemgrid",
+                        "item_margin": "1, 0",
+                        "h_alignment": "center",
+						"item_height": 52,
+						"item_width": 52,
+                        "rows": [
+                            [
+                                "Asta",
+                                "Blade",
+                                "Cipher",
+                                "Feixiao",
+                                "Gallagher",
+                                "Herta",
+                                "Huohuo",
+                                "Jade",
+                                "Jiaoqiu",
+								"March7th",
+                                "Moze",
+                                "Mydei",
+                                "Qingque"
+                            ]
+                        ]
+                    },
+					{
+                        "type": "itemgrid",
                         "item_margin": "1, -5",
                         "h_alignment": "center",
 						"item_height": 52,
 						"item_width": 52,
                         "rows": [
                             [
-                                "Cipher",
+                                "Rappa",
+                                "Rin",
+                                "Sampo",
+                                "TheDahlia",
+                                "Tingyun",
                                 "YaoGuang"
                             ]
                         ]

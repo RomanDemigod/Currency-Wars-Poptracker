@@ -148,13 +148,14 @@ LOCATION_MAPPING = {
 	[122] = {{"@Bosses/Defeat Incarnation of Strife/"}},
 	[128] = {{"@Bosses/Defeat Judge of Oblivion/"}},
 	[124] = {{"@Bosses/Defeat Pollux/"}},
-	[117] = {{"@Bosses/Stellaron Hunters/Defeat Stellaron Hunter: Sam/"}},
-	[123] = {{"@Bosses/Stellaron Hunters/Defeat Stellaron Hunter: Kafka/"}},
+	[117] = {{"@Bosses/Defeat Stellaron Hunter: Sam/"}},
+	[123] = {{"@Bosses/Defeat Stellaron Hunter: Kafka/"}},
 	[116] = {{"@Bosses/Defeat Svarog/"}},
 	[129] = {{"@Bosses/Defeat Swarm Nightmare/"}},
 	[120] = {{"@Bosses/Defeat The Past, Present and Eternal Show/"}},
 	[126] = {{"@Bosses/Defeat Wonder Forest's Banacademic Office Staff/"}},
-	[118] = {{"@Bosses/Defeat Yanqing/"}}
+	[118] = {{"@Bosses/Defeat Yanqing/"}},
+	[134] = {{"@Bosses/Defeat Murata Graphia, Founding Artist/"}}
 
 
 }

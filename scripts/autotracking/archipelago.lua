@@ -497,7 +497,8 @@ reverse_mapping = {
 	["Bosses/Defeat Swarm Nightmare/"] = 129,
 	["Bosses/Defeat The Past, Present and Eternal Show/"] = 120,
 	["Bosses/Defeat Wonder Forest's Banacademic Office Staff/"] = 126,
-	["Bosses/Defeat Yanqing/"] = 118
+	["Bosses/Defeat Yanqing/"] = 118,
+	["Bosses/Defeat Murata Graphia, Founding Artist/"] = 134
 }
 
 	COLLECTED_LOCATION_IDS = {}

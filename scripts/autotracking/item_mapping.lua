@@ -1,94 +1,92 @@
 ITEM_MAPPING = {
 
-	--Final ID is 129, Junk
+	--Final ID is 126, Junk
 
 	--5 Cost Characters
 	[60] = {{"Welt", "toggle"},{"ExpressCount", "progressive"},{"DebuffCount", "progressive"}},
-	[53] = {{"Archer", "toggle"},{"VoyagerCount", "progressive"},{"SkillCount", "progressive"}},
+	[53] = {{"Archer", "toggle"},{"GrailCount", "progressive"},{"SkillCount", "progressive"}},
 	[59] = {{"Topaz", "toggle"},{"IPCCount", "progressive"},{"FollowCount", "progressive"}},
 	[58] = {{"JingYuan", "toggle"},{"AoECount", "progressive"},{"XianzhouCount", "progressive"}},
 	[61] = {{"Yunli", "toggle"},{"WolfHuntCount", "progressive"},{"EnergyCount", "progressive"}},
 	[54] = {{"BlackSwan", "toggle"},{"PenaconyCount", "progressive"},{"DoTCount", "progressive"}},
-	[57] = {{"Firefly", "toggle"},{"ElioCount", "progressive"}},
+	[57] = {{"Firefly", "toggle"},{"ElioCount", "progressive"},{"BreakCount", "progressive"}},
 	[56] = {{"Cyrene", "toggle"},{"NightCount", "progressive"},{"DayCount", "progressive"}},
 	[55] = {{"Bronya", "toggle"},{"BelobogCount", "progressive"},{"BloodflameCount", "progressive"}},
 
 	--4 Cost Characters
-	[49] = {{"SilverWolf", "toggle"},{"ElioCount", "progressive"},{"QuantumCount", "progressive"}},
+	[49] = {{"SilverWolf", "toggle"}},
 	[44] = {{"Gepard", "toggle"},{"BelobogCount", "progressive"},{"ShieldCount", "progressive"}},
 	[47] = {{"Luocha", "toggle"},{"VoyagerCount", "progressive"},{"HealCount", "progressive"}},
 	[43] = {{"FuXuan", "toggle"},{"XianzhouCount", "progressive"},{"QuantumCount", "progressive"},{"HealCount", "progressive"}},
-	[52] = {{"Yanqing", "toggle"},{"WolfHuntCount", "progressive"},{"DebuffCount", "progressive"}},
+	[52] = {{"Yanqing", "toggle"},{"WolfHuntCount", "progressive"},{"DebuffCount", "progressive"},{"XianzhouCount", "progressive"}},
 	[48] = {{"Robin", "toggle"},{"PenaconyCount", "progressive"},{"FollowCount", "progressive"}},
 	[41] = {{"Boothill", "toggle"},{"RangerCount", "progressive"},{"BreakCount", "progressive"}},
 	[50] = {{"TheHerta", "toggle"},{"ScholarCount", "progressive"},{"AoECount", "progressive"}},
 	[42] = {{"Castorice", "toggle"},{"NightCount", "progressive"},{"BloodflameCount", "progressive"}},
 	[45] = {{"Hysilens", "toggle"},{"DayCount", "progressive"},{"DoTCount", "progressive"}},
 	[32] = {{"Evernight", "toggle"},{"NightCount", "progressive"},{"BloodflameCount", "progressive"}},
-	[125] = {{"Sparxie", "toggle"},{"VoyagerCount", "progressive"},{"ElationCount", "progressive"},{"SkillCount", "progressive"}},
+	[117] = {{"Sparxie", "toggle"},{"VoyagerCount", "progressive"},{"ElationCount", "progressive"},{"SkillCount", "progressive"}},
 	[51] = {{"Trailblazer", "toggle"},{"ExpressCount", "progressive"},{"EnergyCount", "progressive"},{"ElationCount", "progressive"}},
 
 	--3 Cost Characters
-	[34] = {{"Himeko", "toggle"},{"ExpressCount", "progressive"},{"BreakCount", "progressive"}},
-	[38] = {{"Saber", "toggle"},{"VoyagerCount", "progressive"},{"EnergyCount", "progressive"}},
+	[34] = {{"Himeko", "toggle"}},
+	[38] = {{"Saber", "toggle"},{"GrailCount", "progressive"},{"EnergyCount", "progressive"}},
+	[39] = {{"Seele", "toggle"},{"BelobogCount", "progressive"},{"QuantumCount", "progressive"}},
 	[36] = {{"Natasha", "toggle"},{"BelobogCount", "progressive"},{"HealCount", "progressive"}},
 	[35] = {{"Jingliu", "toggle"},{"WolfHuntCount", "progressive"},{"BloodflameCount", "progressive"}},
 	[33] = {{"Fugue", "toggle"},{"XianzhouCount", "progressive"},{"BreakCount", "progressive"}},
 	[31] = {{"DrRatio", "toggle"},{"ScholarCount", "progressive"},{"VoyagerCount", "progressive"},{"FollowCount", "progressive"}},
 	[28] = {{"Acheron", "toggle"},{"RangerCount", "progressive"},{"DebuffCount", "progressive"}},
-	[39] = {{"Seele", "toggle"},{"BelobogCount", "progressive"},{"QuantumCount", "progressive"}},
 	[40] = {{"Sunday", "toggle"},{"ExpressCount", "progressive"},{"PenaconyCount", "progressive"},{"EnergyCount", "progressive"}},
 	[29] = {{"Anaxa", "toggle"},{"DayCount", "progressive"},{"AoECount", "progressive"}},
 	[37] = {{"Phainon", "toggle"}},
 	[30] = {{"Cerydra", "toggle"},{"NightCount", "progressive"},{"SkillCount", "progressive"}},
-	[126] = {{"SilverWolf999", "toggle"},{"ElioCount", "progressive"},{"ElationCount", "progressive"}},
+	[118] = {{"SilverWolf999", "toggle"},{"ElioCount", "progressive"},{"ElationCount", "progressive"}},
+	[122] = {{"Himeko Nova", "toggle"},{"ExpressCount", "progressive"},},
 
 	--2 Cost Characters
 	[22] = {{"Kafka", "toggle"},{"ElioCount", "progressive"},{"DoTCount", "progressive"}},
-	[24] = {{"Pela", "toggle"},{"BelobogCount", "progressive"},{"DebuffCount", "progressive"}},
-	[17] = {{"DanHengIL", "toggle"},{"XianzhouCount", "progressive"},{"ExpressCount", "progressive"},{"AoECount", "progressive"},{"SkillCount", "progressive"}},
-	[15] = {{"Argenti", "toggle"},{"VoyagerCount", "progressive"},{"EnergyCount", "progressive"}},
+	[24] = {{"Pela", "toggle"}},
+	[17] = {{"DanHengIL", "toggle"},{"XianzhouCount", "progressive"},{"ExpressCount", "progressive"},{"SkillCount", "progressive"}},
+	[15] = {{"Argenti", "toggle"},{"VoyagerCount", "progressive"},{"EnergyCount", "progressive"},{"AoECount", "progressive"}},
 	[25] = {{"RuanMei", "toggle"},{"ScholarCount", "progressive"},{"BreakCount", "progressive"}},
 	[16] = {{"Aventurine", "toggle"},{"IPCCount", "progressive"},{"FollowCount", "progressive"},{"ShieldCount", "progressive"}},
 	[26] = {{"Sparkle", "toggle"},{"PenaconyCount", "progressive"},{"SkillCount", "progressive"},{"QuantumCount", "progressive"}},
 	[46] = {{"Lingsha", "toggle"},{"WolfHuntCount", "progressive"},{"BreakCount", "progressive"},{"HealCount", "progressive"}},
 	[27] = {{"Tribbie", "toggle"},{"DayCount", "progressive"},{"AoECount", "progressive"},{"QuantumCount", "progressive"}},
-	[23] = {{"Mydei", "toggle"},{"NightCount", "progressive"},{"BloodflameCount", "progressive"}},
 	[21] = {{"Hyacine", "toggle"},{"DayCount", "progressive"},{"BloodflameCount", "progressive"},{"HealCount", "progressive"}},
 	[18] = {{"DanHengPT", "toggle"},{"NightCount", "progressive"},{"ShieldCount", "progressive"}},
-	[128] = {{"Ashveil", "toggle"},{"RangerCount", "progressive"},{"FollowCount", "progressive"}},
-	[127] = {{"Evanescia", "toggle"},{"VoyagerCount", "progressive"},{"ElationCount", "progressive"}},
+	[120] = {{"Ashveil", "toggle"},{"RangerCount", "progressive"},{"FollowCount", "progressive"}},
+	[119] = {{"Evanescia", "toggle"},{"VoyagerCount", "progressive"},{"ElationCount", "progressive"}},
+	[124] = {{"Gilgamesh", "toggle"},{"GrailCount", "progressive"},{"EnergyCount", "progressive"}},
+	[123] = {{"M Blade", "toggle"},{"ElioCount", "progressive"},{"BloodflameCount", "progressive"},{"DebuffCount", "progressive"}},
 
 	--1 Cost Characters
 	[9] = {{"March7th", "toggle"},{"ExpressCount", "progressive"},{"ShieldCount", "progressive"}},
 	[2] = {{"Asta", "toggle"},{"ScholarCount", "progressive"},{"DoTCount", "progressive"}},
 	[6] = {{"Herta", "toggle"},{"ScholarCount", "progressive"},{"AoECount", "progressive"}},
-	[13] = {{"Sampo", "toggle"},{"BelobogCount", "progressive"},{"VoyagerCount", "progressive"},{"DoTCount", "progressive"}},
+	[13] = {{"Sampo", "toggle"}},
 	[19] = {{"Feixiao", "toggle"},{"WolfHuntCount", "progressive"},{"FollowCount", "progressive"}},
-	[11] = {{"Qingque", "toggle"},{"XianzhouCount", "progressive"}},
-	[14] = {{"Tingyun", "toggle"},{"XianzhouCount", "progressive"},{"EnergyCount", "progressive"}},
-	[3] = {{"Blade", "toggle"},{"ElioCount", "progressive"},{"BloodflameCount", "progressive"}},
+	[11] = {{"Qingque", "toggle"}},
+	[14] = {{"Tingyun", "toggle"}},
+	[3] = {{"Blade", "toggle"}},
+	[23] = {{"Mydei", "toggle"},{"NightCount", "progressive"},{"BloodflameCount", "progressive"}},
 	[20] = {{"Huohuo", "toggle"},{"XianzhouCount", "progressive"},{"EnergyCount", "progressive"},{"HealCount", "progressive"}},
 	[8] = {{"Jiaoqiu", "toggle"},{"WolfHuntCount", "progressive"},{"DebuffCount", "progressive"},{"HealCount", "progressive"}},
-	[10] = {{"Moze", "toggle"},{"WolfHuntCount", "progressive"}},
-	[5] = {{"Gallagher", "toggle"},{"PenaconyCount", "progressive"},{"BreakCount", "progressive"},{"HealCount", "progressive"}},
+	[10] = {{"Moze", "toggle"}},
+	[5] = {{"Gallagher", "toggle"}},
 	[7] = {{"Jade", "toggle"},{"IPCCount", "progressive"},{"AoECount", "progressive"}},
 	[12] = {{"Rappa", "toggle"},{"RangerCount", "progressive"},{"BreakCount", "progressive"}},
-	[123] = {{"TheDahlia", "toggle"},{"PenaconyCount", "progressive"},{"BreakCount", "progressive"}},
+	[115] = {{"TheDahlia", "toggle"},{"PenaconyCount", "progressive"},{"BreakCount", "progressive"}},
 	[1] = {{"Aglaea", "toggle"},{"DayCount", "progressive"},{"EnergyCount", "progressive"}},
 	[4] = {{"Cipher", "toggle"},{"NightCount", "progressive"},{"FollowCount", "progressive"},{"DebuffCount", "progressive"}},
-	[124] = {{"YaoGuang", "toggle"},{"XianzhouCount", "progressive"},{"ElationCount", "progressive"},{"SkillCount", "progressive"}},
+	[116] = {{"YaoGuang", "toggle"},{"XianzhouCount", "progressive"},{"ElationCount", "progressive"},{"SkillCount", "progressive"}},
+	[125] = {{"Rin Tohsaka", "toggle"},{"GrailCount", "progressive"},{"SkillCount", "progressive"}},
+
 	
 
 	--Access Cards
-	[115] = {{"A1_Access", "toggle"}},
-	[116] = {{"A2_Access", "toggle"}},
-	[117] = {{"A3_Access", "toggle"}},
-	[118] = {{"A4_Access", "toggle"}},
-	[119] = {{"A5_Access", "toggle"}},
-	[120] = {{"A6_Access", "toggle"}},
-	[121] = {{"A7_Access", "toggle"}},
-	[122] = {{"A8_Access", "toggle"}},
+	[121] = {{"Progressive Access Card", "progressive"}},
 
 	--Basic Items
 	[62] = {{"AetherDrill", "toggle"}},
@@ -146,9 +144,9 @@ ITEM_MAPPING = {
 	[112] = {{"PerfectProjector", "toggle"}},
 	[113] = {{"GoodFortuneToken", "toggle"}},
 	[114] = {{"SpecialPrivilegeCard", "toggle"}},
-	[129] = {{"Junk", "toggle"}}
+	[126] = {{"Junk", "toggle"}}
 	
 --All Bonds. Add to Emblem if you want it considered for bond tracking:
-	--{"ShieldCount", "progressive"},{"QuantumCount", "progressive"},{"HealCount", "progressive"},{"BelobogCount", "progressive"},{"WolfHuntCount", "progressive"},{"ScholarCount", "progressive"},{"DoTCount", "progressive"},{"RangerCount", "progressive"},{"ElioCount", "progressive"},{"BloodflameCount", "progressive"},{"PenaconyCount", "progressive"},{"BreakCount", "progressive"},{"IPCCount", "progressive"},{"AoECount", "progressive"},{"DayCount", "progressive"},{"EnergyCount", "progressive"},{"ExpressCount", "progressive"},{"NightCount", "progressive"},{"FollowCount", "progressive"},{"DebuffCount", "progressive"},{"VoyagerCount", "progressive"},{"SkillCount", "progressive"},{"XianzhouCount", "progressive"},{"ElationCount", "progressive"}
+	--{"GrailCount", "progressive"},{"ShieldCount", "progressive"},{"QuantumCount", "progressive"},{"HealCount", "progressive"},{"BelobogCount", "progressive"},{"WolfHuntCount", "progressive"},{"ScholarCount", "progressive"},{"DoTCount", "progressive"},{"RangerCount", "progressive"},{"ElioCount", "progressive"},{"BloodflameCount", "progressive"},{"PenaconyCount", "progressive"},{"BreakCount", "progressive"},{"IPCCount", "progressive"},{"AoECount", "progressive"},{"DayCount", "progressive"},{"EnergyCount", "progressive"},{"ExpressCount", "progressive"},{"NightCount", "progressive"},{"FollowCount", "progressive"},{"DebuffCount", "progressive"},{"VoyagerCount", "progressive"},{"SkillCount", "progressive"},{"XianzhouCount", "progressive"},{"ElationCount", "progressive"}
 
 }
