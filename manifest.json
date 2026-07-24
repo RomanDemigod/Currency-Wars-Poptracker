@@ -1,7 +1,7 @@
 {
   "name": "HSR Currency Wars PopTracker Plugin",
   "game_name": "Manual_CurrencyWars_MayaXTGYuukizyzzvays",
-  "package_version": "1.0.0",
+  "package_version": "2.0.0",
   "package_uid": "hsr_cw_ap_plugin",
   "author": "KatRoman",
   "target_poptracker_version": "0.28.0",
