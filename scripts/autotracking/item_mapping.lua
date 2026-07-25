@@ -86,7 +86,7 @@ ITEM_MAPPING = {
 	
 
 	--Access Cards
-	[121] = {{"Progressive Access Card", "progressive"}},
+	[121] = {{"Progressive_Access_Card", "progressive"}},
 
 	--Basic Items
 	[62] = {{"AetherDrill", "toggle"}},
